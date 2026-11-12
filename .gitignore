@@ -1,0 +1,6 @@
+# Files your computer or editor creates that don't belong on the website
+.claude/
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store

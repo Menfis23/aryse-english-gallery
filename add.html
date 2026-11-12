@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add Your Own · English Activity Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600;700;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav"></header>
+
+  <main>
+    <section class="page-head">
+      <p class="eyebrow">Add your own</p>
+      <h1>Share what works with your group.</h1>
+      <p class="sub">Design an icebreaker or activity. Other counselors can use it once it's shared.</p>
+    </section>
+
+    <div class="two-col">
+      <form class="panel" id="add-form">
+        <p class="notice" id="not-connected" hidden>
+          Sharing isn't connected yet. You can still design your idea, then copy it or save it as a file.
+        </p>
+        <fieldset><legend>What are you adding?</legend>
+          <div class="seg">
+            <label class="seg-opt"><input type="radio" name="type" value="Icebreaker" checked><span>Icebreaker</span></label>
+            <label class="seg-opt"><input type="radio" name="type" value="Activity"><span>Activity</span></label>
+          </div>
+        </fieldset>
+        <label class="field"><span>Title</span><input name="title" required maxlength="80" placeholder="e.g. Grocery Store Relay"></label>
+        <fieldset><legend>Age group</legend>
+          <div class="seg">
+            <label class="seg-opt"><input type="checkbox" name="age" value="11-14" checked><span>11–14</span></label>
+            <label class="seg-opt"><input type="checkbox" name="age" value="15-21" checked><span>15–21</span></label>
+          </div>
+        </fieldset>
+        <fieldset><legend>English level</legend>
+          <div class="seg">
+            <label class="seg-opt"><input type="checkbox" name="level" value="Beginner" checked><span>Beginner</span></label>
+            <label class="seg-opt"><input type="checkbox" name="level" value="Middle" checked><span>Middle</span></label>
+            <label class="seg-opt"><input type="checkbox" name="level" value="Confident"><span>Confident</span></label>
+          </div>
+        </fieldset>
+        <label class="field"><span>Minutes</span><input name="minutes" type="number" min="5" max="120" value="15" inputmode="numeric"></label>
+        <label class="field"><span>Materials (one per line)</span><textarea name="materials" placeholder="Paper&#10;Markers"></textarea></label>
+        <label class="field"><span>Steps (one per line)</span><textarea name="steps" required placeholder="Split into two teams.&#10;Each team…"></textarea></label>
+        <label class="field"><span>Phrases students say out loud (one per line)</span><textarea name="phrases" placeholder="Where is the ___?"></textarea></label>
+        <label class="field"><span>Your name (optional)</span><input name="author" maxlength="60"></label>
+        <div class="plan-actions">
+          <button class="btn btn-coral" type="submit" id="share">Share with counselors</button>
+          <button class="btn btn-ghost btn-small" type="button" id="copy">Copy as text</button>
+          <button class="btn btn-ghost btn-small" type="button" id="download">Save file</button>
+        </div>
+        <p class="hint" id="status" aria-live="polite"></p>
+      </form>
+
+      <section>
+        <p class="eyebrow">Preview</p>
+        <article class="preview-card" id="preview"></article>
+      </section>
+    </div>
+
+    <section class="community" id="community" hidden>
+      <p class="eyebrow">Shared by counselors</p>
+      <div class="grid" id="community-grid" style="padding:0"></div>
+    </section>
+  </main>
+
+  <footer class="footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/add.js"></script>
+</body>
+</html>

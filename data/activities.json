@@ -1,0 +1,234 @@
+{
+  "_about": "English activities. Each topic has key words (with home-language translations), phrases for each English level, and one game with a tweak per level. TRANSLATIONS NEED A CHECK BY NATIVE SPEAKERS before campers see them.",
+
+  "languages": [
+    { "id": "fr", "name": "French", "dir": "ltr" },
+    { "id": "es", "name": "Spanish", "dir": "ltr" },
+    { "id": "ar", "name": "Arabic", "dir": "rtl" },
+    { "id": "sw", "name": "Swahili", "dir": "ltr" }
+  ],
+
+  "levels": [
+    { "id": "beginner", "name": "Beginner", "bars": 1 },
+    { "id": "middle", "name": "Middle", "bars": 2 },
+    { "id": "confident", "name": "Confident", "bars": 3 }
+  ],
+
+  "ages": [
+    { "id": "11-14", "name": "Ages 11–14" },
+    { "id": "15-21", "name": "Ages 15–21" }
+  ],
+
+  "topics": [
+    {
+      "id": "food", "name": "Ordering food", "ages": ["11-14", "15-21"],
+      "words": [
+        { "en": "menu", "fr": "menu", "es": "menú", "ar": "قائمة الطعام", "sw": "menyu" },
+        { "en": "water", "fr": "eau", "es": "agua", "ar": "ماء", "sw": "maji" },
+        { "en": "chicken", "fr": "poulet", "es": "pollo", "ar": "دجاج", "sw": "kuku" },
+        { "en": "rice", "fr": "riz", "es": "arroz", "ar": "أرز", "sw": "wali" },
+        { "en": "waiter", "fr": "serveur", "es": "mesero", "ar": "نادل", "sw": "mhudumu" },
+        { "en": "to order", "fr": "commander", "es": "pedir", "ar": "يطلب", "sw": "kuagiza" },
+        { "en": "the bill", "fr": "l'addition", "es": "la cuenta", "ar": "الفاتورة", "sw": "bili" },
+        { "en": "please", "fr": "s'il vous plaît", "es": "por favor", "ar": "من فضلك", "sw": "tafadhali" }
+      ],
+      "phrases": {
+        "beginner": ["I want ___, please.", "Water, please.", "Thank you!"],
+        "middle": ["Can I have the chicken and rice?", "How much is it?", "Can I get the bill, please?"],
+        "confident": ["What do you recommend?", "Does this have nuts in it?", "Could we split the bill?"]
+      },
+      "game": {
+        "name": "Restaurant Role-Play",
+        "materials": ["Picture menus", "Notepad for the waiter", "Play money"],
+        "steps": [
+          "Set up two or three 'tables' with a menu on each.",
+          "One student is the waiter. Everyone else at the table is a customer.",
+          "Customers order out loud. The waiter repeats the order back.",
+          "Swap waiters every round so everyone gets both roles.",
+          "Teams earn a point for every full order said out loud."
+        ],
+        "tweaks": {
+          "beginner": "Use picture menus. Customers point, then say the word plus 'please'.",
+          "middle": "Customers order in full sentences and ask how much it costs.",
+          "confident": "The waiter gets 'problem cards' (no more chicken, wrong order) and customers must sort it out politely."
+        }
+      },
+      "wrapup": "What is one thing you can order in English now?"
+    },
+    {
+      "id": "bus", "name": "Riding the bus", "ages": ["11-14", "15-21"],
+      "words": [
+        { "en": "bus", "fr": "bus", "es": "autobús", "ar": "حافلة", "sw": "basi" },
+        { "en": "bus stop", "fr": "arrêt de bus", "es": "parada de autobús", "ar": "موقف الحافلات", "sw": "kituo cha basi" },
+        { "en": "ticket", "fr": "billet", "es": "boleto", "ar": "تذكرة", "sw": "tiketi" },
+        { "en": "driver", "fr": "chauffeur", "es": "conductor", "ar": "سائق", "sw": "dereva" },
+        { "en": "left", "fr": "gauche", "es": "izquierda", "ar": "يسار", "sw": "kushoto" },
+        { "en": "right", "fr": "droite", "es": "derecha", "ar": "يمين", "sw": "kulia" },
+        { "en": "stop", "fr": "arrêter", "es": "parar", "ar": "توقف", "sw": "simama" },
+        { "en": "map", "fr": "plan", "es": "mapa", "ar": "خريطة", "sw": "ramani" }
+      ],
+      "phrases": {
+        "beginner": ["Bus to ___?", "Stop here, please.", "Thank you!"],
+        "middle": ["Does this bus go to ___?", "How much is a ticket?", "Where do I get off?"],
+        "confident": ["Can you tell me when we get to ___?", "Which bus should I take to get downtown?", "I think I missed my stop. What should I do?"]
+      },
+      "game": {
+        "name": "Bus Route Race",
+        "materials": ["Chairs in rows (the bus)", "Big paper map with stops", "Ticket slips"],
+        "steps": [
+          "Line up chairs like a bus. Tape a map with stops to the wall.",
+          "One student is the driver. Riders get a card with where they need to go.",
+          "Riders must ask the driver out loud before they board.",
+          "The driver answers and calls out each stop.",
+          "Teams race to get every rider to the right stop. Points for each correct question."
+        ],
+        "tweaks": {
+          "beginner": "Riders point at the map and use 'left', 'right' and 'stop'.",
+          "middle": "Riders ask a full question before boarding and when to get off.",
+          "confident": "Add 'detour cards': the route changes and riders must ask for a new way."
+        }
+      },
+      "wrapup": "Where would you take the bus this week?"
+    },
+    {
+      "id": "school", "name": "Starting at a new school", "ages": ["11-14", "15-21"],
+      "words": [
+        { "en": "teacher", "fr": "professeur", "es": "maestro", "ar": "معلم", "sw": "mwalimu" },
+        { "en": "classroom", "fr": "salle de classe", "es": "salón de clases", "ar": "فصل", "sw": "darasa" },
+        { "en": "schedule", "fr": "emploi du temps", "es": "horario", "ar": "جدول", "sw": "ratiba" },
+        { "en": "friend", "fr": "ami", "es": "amigo", "ar": "صديق", "sw": "rafiki" },
+        { "en": "lunch", "fr": "déjeuner", "es": "almuerzo", "ar": "غداء", "sw": "chakula cha mchana" },
+        { "en": "locker", "fr": "casier", "es": "casillero", "ar": "خزانة", "sw": "kabati" },
+        { "en": "bathroom", "fr": "toilettes", "es": "baño", "ar": "حمام", "sw": "choo" },
+        { "en": "help", "fr": "aide", "es": "ayuda", "ar": "مساعدة", "sw": "msaada" }
+      ],
+      "phrases": {
+        "beginner": ["Hi, I'm ___.", "Where is the bathroom?", "Can you help me?"],
+        "middle": ["What class do we have next?", "Can I sit here?", "I don't understand. Can you say it again?"],
+        "confident": ["Could you explain the homework?", "Do you want to eat lunch together?", "I'm new here. What clubs are there?"]
+      },
+      "game": {
+        "name": "New Kid Scavenger Hunt",
+        "materials": ["Station signs (classroom, lunch, office, bathroom)", "Schedule cards", "Stickers or stamps"],
+        "steps": [
+          "Turn the room into a school with labeled stations.",
+          "Each student gets a schedule card with places to visit.",
+          "To get to each place, they must ask someone for directions out loud.",
+          "At each station, they collect a sticker.",
+          "First team to fill every schedule card wins."
+        ],
+        "tweaks": {
+          "beginner": "Picture schedule cards. Ask 'Where is ___?' and point.",
+          "middle": "Ask full questions and give directions back to others.",
+          "confident": "Add social challenges: invite someone to lunch, ask about clubs."
+        }
+      },
+      "wrapup": "What is one question you could ask on your first day?"
+    },
+    {
+      "id": "doctor", "name": "Going to the doctor", "ages": ["11-14", "15-21"],
+      "words": [
+        { "en": "doctor", "fr": "médecin", "es": "médico", "ar": "طبيب", "sw": "daktari" },
+        { "en": "sick", "fr": "malade", "es": "enfermo", "ar": "مريض", "sw": "mgonjwa" },
+        { "en": "pain", "fr": "douleur", "es": "dolor", "ar": "ألم", "sw": "maumivu" },
+        { "en": "head", "fr": "tête", "es": "cabeza", "ar": "رأس", "sw": "kichwa" },
+        { "en": "stomach", "fr": "ventre", "es": "estómago", "ar": "معدة", "sw": "tumbo" },
+        { "en": "fever", "fr": "fièvre", "es": "fiebre", "ar": "حمى", "sw": "homa" },
+        { "en": "medicine", "fr": "médicament", "es": "medicina", "ar": "دواء", "sw": "dawa" },
+        { "en": "appointment", "fr": "rendez-vous", "es": "cita", "ar": "موعد", "sw": "miadi" }
+      ],
+      "phrases": {
+        "beginner": ["I am sick.", "My ___ hurts.", "I have a fever."],
+        "middle": ["I have had a headache for two days.", "How often do I take this medicine?", "Can I make an appointment?"],
+        "confident": ["The pain gets worse when I ___.", "Are there any side effects?", "Can I get a note for school or work?"]
+      },
+      "game": {
+        "name": "Doctor's Office Charades",
+        "materials": ["Symptom cards with pictures", "Paper 'prescription' pad"],
+        "steps": [
+          "A patient picks a symptom card and acts it out.",
+          "The patient then says the symptom out loud in English.",
+          "The doctor guesses and asks one follow-up question.",
+          "The doctor writes a pretend 'prescription' and explains it.",
+          "Teams score a point for every full sentence."
+        ],
+        "tweaks": {
+          "beginner": "Patients point to the body part and say 'My ___ hurts.'",
+          "middle": "Patients say how long it has hurt. Doctors ask 'How often?'",
+          "confident": "Doctors ask three questions and explain the medicine and side effects."
+        }
+      },
+      "wrapup": "If you felt sick tomorrow, what would you say?"
+    },
+    {
+      "id": "interview", "name": "Job interviews", "ages": ["15-21"],
+      "words": [
+        { "en": "job", "fr": "emploi", "es": "trabajo", "ar": "وظيفة", "sw": "kazi" },
+        { "en": "interview", "fr": "entretien", "es": "entrevista", "ar": "مقابلة", "sw": "mahojiano" },
+        { "en": "experience", "fr": "expérience", "es": "experiencia", "ar": "خبرة", "sw": "uzoefu" },
+        { "en": "work hours", "fr": "horaires", "es": "horario", "ar": "ساعات العمل", "sw": "saa za kazi" },
+        { "en": "strength", "fr": "point fort", "es": "fortaleza", "ar": "نقطة قوة", "sw": "uwezo" },
+        { "en": "team", "fr": "équipe", "es": "equipo", "ar": "فريق", "sw": "timu" },
+        { "en": "manager", "fr": "responsable", "es": "gerente", "ar": "مدير", "sw": "meneja" },
+        { "en": "résumé", "fr": "CV", "es": "currículum", "ar": "السيرة الذاتية", "sw": "wasifu" }
+      ],
+      "phrases": {
+        "beginner": ["My name is ___.", "I can work on ___.", "I am good at ___."],
+        "middle": ["I have experience with ___.", "I am a hard worker and I like teamwork.", "What are the work hours?"],
+        "confident": ["Let me tell you about myself.", "One of my strengths is ___ because ___.", "What does a normal day look like in this job?"]
+      },
+      "game": {
+        "name": "Hot Seat Interview",
+        "materials": ["Job ad cards", "Interview question cards", "Score sheets"],
+        "steps": [
+          "Three students sit as the 'managers' with question cards.",
+          "A candidate picks a job ad card and takes the hot seat.",
+          "Managers ask questions. The candidate answers out loud.",
+          "Managers give points for eye contact, full sentences and one real example.",
+          "Rotate until everyone has been in the hot seat."
+        ],
+        "tweaks": {
+          "beginner": "Two questions only, with sentence starters on the card.",
+          "middle": "Four questions. The candidate asks one question back.",
+          "confident": "A surprise question at the end. The candidate gives a 30-second pitch."
+        }
+      },
+      "wrapup": "What job would you like, and what would you say about yourself?"
+    },
+    {
+      "id": "bank", "name": "Opening a bank account", "ages": ["15-21"],
+      "words": [
+        { "en": "bank", "fr": "banque", "es": "banco", "ar": "بنك", "sw": "benki" },
+        { "en": "account", "fr": "compte", "es": "cuenta", "ar": "حساب", "sw": "akaunti" },
+        { "en": "money", "fr": "argent", "es": "dinero", "ar": "مال", "sw": "pesa" },
+        { "en": "ID card", "fr": "pièce d'identité", "es": "identificación", "ar": "بطاقة هوية", "sw": "kitambulisho" },
+        { "en": "address", "fr": "adresse", "es": "dirección", "ar": "عنوان", "sw": "anwani" },
+        { "en": "to save", "fr": "économiser", "es": "ahorrar", "ar": "يدّخر", "sw": "kuweka akiba" },
+        { "en": "card", "fr": "carte", "es": "tarjeta", "ar": "بطاقة", "sw": "kadi" },
+        { "en": "to sign", "fr": "signer", "es": "firmar", "ar": "يوقّع", "sw": "kusaini" }
+      ],
+      "phrases": {
+        "beginner": ["I want to open an account.", "Here is my ID.", "Thank you!"],
+        "middle": ["What do I need to open an account?", "Is there a fee?", "How do I get a debit card?"],
+        "confident": ["What is the difference between checking and savings?", "Can I set up direct deposit?", "What happens if I lose my card?"]
+      },
+      "game": {
+        "name": "Bank Teller Challenge",
+        "materials": ["Play money", "Simple account forms", "Task cards"],
+        "steps": [
+          "Set up a 'teller desk' with forms and play money.",
+          "Customers draw a task card: open an account, deposit money, report a lost card.",
+          "The teller must ask for ID and address before helping.",
+          "Customers fill in the form and say each answer out loud.",
+          "Teams earn points for each task finished in English."
+        ],
+        "tweaks": {
+          "beginner": "Only the 'open an account' task. Point to the form and say the word.",
+          "middle": "All three tasks. Customers ask about fees.",
+          "confident": "The teller explains checking vs savings and the customer chooses."
+        }
+      },
+      "wrapup": "What is one thing you would ask at a bank?"
+    }
+  ]
+}

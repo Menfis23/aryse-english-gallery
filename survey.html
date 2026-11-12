@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Day-one Survey · English Activity Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600;700;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav"></header>
+
+  <main class="survey">
+    <div class="survey-bar">
+      <div>
+        <p class="eyebrow">Day-one picture survey</p>
+        <p class="sub" style="margin:0">Students tap pictures, not words. Pass the tablet or laptop around.</p>
+      </div>
+      <div class="tabs" role="tablist">
+        <button type="button" role="tab" id="tab-run" aria-selected="true">Students</button>
+        <button type="button" role="tab" id="tab-results" aria-selected="false">Results</button>
+      </div>
+    </div>
+
+    <section class="s-stage" id="stage" aria-live="polite"></section>
+  </main>
+
+  <footer class="footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/survey.js"></script>
+</body>
+</html>

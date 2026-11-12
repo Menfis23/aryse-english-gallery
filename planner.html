@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plan a Lesson · English Activity Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600;700;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav"></header>
+
+  <main>
+    <section class="page-head">
+      <p class="eyebrow">Lesson planner</p>
+      <h1>A full lesson in a minute.</h1>
+      <p class="sub">Pick your group. You get an icebreaker, key words, phrases, a game and a wrap-up, ready to print or present.</p>
+    </section>
+
+    <div class="two-col">
+      <form class="panel" id="plan-form">
+        <p class="survey-note" id="survey-note" hidden></p>
+        <fieldset><legend>Age group</legend><div class="seg" id="f-age"></div></fieldset>
+        <fieldset><legend>English level</legend><div class="seg" id="f-level"></div></fieldset>
+        <fieldset><legend>Topic</legend><div class="seg" id="f-topic"></div></fieldset>
+        <fieldset><legend>Group is into</legend><div class="seg" id="f-theme"></div></fieldset>
+        <fieldset><legend>Session length</legend><div class="seg" id="f-min"></div></fieldset>
+        <label class="field"><span>Group size</span><input type="number" name="size" id="f-size" min="2" max="60" value="15" inputmode="numeric"></label>
+        <button class="btn btn-coral" type="submit">Build my lesson plan</button>
+      </form>
+
+      <section class="plan-out" id="out" aria-live="polite">
+        <div class="plan-empty"><p>Your lesson plan will show up here.</p></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/planner.js"></script>
+</body>
+</html>

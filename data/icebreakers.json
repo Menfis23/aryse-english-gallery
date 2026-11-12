@@ -1,0 +1,186 @@
+{
+  "_about": "Icebreakers. groupMin/groupMax = how many campers it works for. sayIt = the English everyone must say out loud, per level.",
+
+  "icebreakers": [
+    {
+      "id": "two-truths", "name": "Two Truths and a Lie",
+      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
+      "groupMin": 4, "groupMax": 30, "minutes": 15,
+      "materials": ["Paper and pens (optional)"],
+      "steps": [
+        "Each person thinks of three facts about themselves. Two are true, one is a lie.",
+        "One by one, say your three facts out loud.",
+        "The group votes on which one is the lie.",
+        "Reveal the answer. Guessers who got it right earn a point."
+      ],
+      "sayIt": {
+        "beginner": ["I like ___.", "I have ___.", "I am from ___."],
+        "middle": ["I have been to ___.", "I can ___.", "I think number ___ is the lie."],
+        "confident": ["Once, I ___.", "I'm pretty sure that's the lie because ___."]
+      },
+      "levelTip": "Beginners can hold up three picture cards instead of writing."
+    },
+    {
+      "id": "picture-hunt", "name": "Picture Scavenger Hunt",
+      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
+      "groupMin": 6, "groupMax": 40, "minutes": 20,
+      "materials": ["Picture list (no words) for each team", "Phones or paper to check items off"],
+      "steps": [
+        "Give each team a list made only of pictures: a red thing, something round, a leaf, etc.",
+        "Teams find each item in the room or outside.",
+        "To check off an item, the team must say its name in English.",
+        "First team to finish (with every word said out loud) wins."
+      ],
+      "sayIt": {
+        "beginner": ["This is a ___.", "We found it!"],
+        "middle": ["We found a ___ next to the ___.", "Where is the ___?"],
+        "confident": ["We found a ___. It was hard because ___."]
+      },
+      "levelTip": "Confident speakers can describe where they found each item."
+    },
+    {
+      "id": "name-motion", "name": "Name and Move",
+      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
+      "groupMin": 6, "groupMax": 30, "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Stand in a circle.",
+        "Say your name and one thing you like, with a move that shows it.",
+        "The whole group repeats your name, your sentence and your move.",
+        "Go around until everyone has had a turn. Then try to say everyone's names."
+      ],
+      "sayIt": {
+        "beginner": ["My name is ___. I like ___."],
+        "middle": ["I'm ___ and I love ___ because it's fun."],
+        "confident": ["I'm ___. On weekends I usually ___."]
+      },
+      "levelTip": "Great first-day activity: no reading needed at all."
+    },
+    {
+      "id": "would-you-rather", "name": "Would You Rather",
+      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
+      "groupMin": 6, "groupMax": 40, "minutes": 10,
+      "materials": ["Two signs: one for each side of the room"],
+      "steps": [
+        "Read a question with two choices, like 'pizza or rice?'",
+        "Everyone walks to the side of the room for their choice.",
+        "A few people from each side say why out loud.",
+        "Anyone can switch sides if they hear a good reason."
+      ],
+      "sayIt": {
+        "beginner": ["I like ___.", "Pizza!"],
+        "middle": ["I would rather ___ because ___."],
+        "confident": ["I'd pick ___, but I understand why people like ___."]
+      },
+      "levelTip": "For beginners, show the two choices as pictures."
+    },
+    {
+      "id": "find-someone", "name": "Find Someone Who",
+      "ages": ["11-14", "15-21"], "levels": ["middle", "confident"],
+      "groupMin": 10, "groupMax": 40, "minutes": 15,
+      "materials": ["Bingo cards with 'Find someone who…' boxes"],
+      "steps": [
+        "Each person gets a bingo card: 'Find someone who plays soccer', 'speaks three languages'…",
+        "Walk around and ask questions out loud.",
+        "When someone says yes, they sign that box.",
+        "First to get a full line shouts 'Bingo!' and reads the names."
+      ],
+      "sayIt": {
+        "beginner": ["Do you ___?", "Yes / No"],
+        "middle": ["Do you play soccer?", "Can you sign here, please?"],
+        "confident": ["Have you ever ___?", "Tell me more about that."]
+      },
+      "levelTip": "Use picture boxes for a beginner version."
+    },
+    {
+      "id": "snowball", "name": "Paper Snowball Fight",
+      "ages": ["11-14", "15-21"], "levels": ["middle", "confident"],
+      "groupMin": 10, "groupMax": 40, "minutes": 10,
+      "materials": ["One sheet of paper per person", "Pens"],
+      "steps": [
+        "Everyone writes an answer to a fun question, like 'My favorite food is…'.",
+        "Crumple the paper into a snowball.",
+        "Snowball fight for 30 seconds!",
+        "Pick up a snowball, read it out loud, and guess who wrote it."
+      ],
+      "sayIt": {
+        "beginner": ["It says ___.", "Is it you?"],
+        "middle": ["This says ___. I think ___ wrote it."],
+        "confident": ["I'm guessing ___ wrote this because ___."]
+      },
+      "levelTip": "Keep the question simple and the snowball fight short."
+    },
+    {
+      "id": "where-from", "name": "Where I'm From Line",
+      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
+      "groupMin": 6, "groupMax": 30, "minutes": 15,
+      "materials": ["A big world map, or tape on the floor as a map"],
+      "steps": [
+        "Lay out a world map or a tape map on the floor.",
+        "Everyone stands on a place that matters to them.",
+        "Each person says one sentence about that place.",
+        "Others can ask one question."
+      ],
+      "sayIt": {
+        "beginner": ["I am from ___.", "It is hot / cold."],
+        "middle": ["I'm from ___. The food there is ___."],
+        "confident": ["I grew up in ___. Something I miss is ___."]
+      },
+      "levelTip": "Let students choose any place: home, a city they love, a dream trip."
+    },
+    {
+      "id": "music-guess", "name": "Name That Song",
+      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
+      "groupMin": 6, "groupMax": 40, "minutes": 15,
+      "materials": ["Speaker", "Short clips of songs the students choose (check them first)"],
+      "steps": [
+        "Before camp, ask students for one song they love from home or from now.",
+        "Play 10 seconds of a song.",
+        "Teams guess who picked it and say one word about how it sounds.",
+        "The person who picked it tells the group about it."
+      ],
+      "sayIt": {
+        "beginner": ["It is fast / slow.", "I like it!"],
+        "middle": ["This song sounds ___. I think ___ picked it."],
+        "confident": ["This song reminds me of ___ because ___."]
+      },
+      "levelTip": "Use their world: songs from home and current hits both count."
+    },
+    {
+      "id": "draw-say", "name": "Draw It, Say It",
+      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
+      "groupMin": 6, "groupMax": 24, "minutes": 15,
+      "materials": ["Paper", "Markers", "Word cards"],
+      "steps": [
+        "One player from each team picks a word card.",
+        "They draw it without letters or numbers.",
+        "Their team shouts guesses in English.",
+        "The first team to say the exact word gets the point."
+      ],
+      "sayIt": {
+        "beginner": ["Is it a ___?", "Yes! / No!"],
+        "middle": ["It looks like a ___.", "Is it something you eat?"],
+        "confident": ["It could be a ___, or maybe a ___."]
+      },
+      "levelTip": "Pull word cards from today's topic to warm up the key words."
+    },
+    {
+      "id": "human-knot", "name": "Human Knot with Directions",
+      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
+      "groupMin": 8, "groupMax": 20, "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Stand in a tight circle and grab two different hands across the circle.",
+        "Untangle the knot without letting go.",
+        "The only rule: you must give directions in English.",
+        "Time each team. Try again and beat your time."
+      ],
+      "sayIt": {
+        "beginner": ["Left!", "Right!", "Up!", "Down!", "Stop!"],
+        "middle": ["Step over my arm.", "Turn to the left."],
+        "confident": ["If you go under there, we can turn around."]
+      },
+      "levelTip": "Good warm-up before the Riding the bus activity (left, right, stop)."
+    }
+  ]
+}

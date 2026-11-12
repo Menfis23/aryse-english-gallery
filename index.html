@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>English Activity Gallery</title>
+  <meta name="description" content="A toolkit for counselors: icebreakers, game-based English activities and a lesson planner for immigrant and refugee students ages 11 to 21.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600;700;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav"></header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Counselor toolkit</p>
+        <h1>English practice that feels like <em>camp</em>, not school.</h1>
+        <p class="sub">
+          Icebreakers, game-based English activities and a lesson planner for students
+          ages 11 to 21 who are new to the country. Grab an idea or build a full plan in a minute,
+          so no one starts from a blank page.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-coral" href="planner.html">Plan a lesson</a>
+          <a class="btn btn-ghost" href="icebreakers.html">Find an icebreaker</a>
+        </div>
+      </div>
+      <div class="bubbles" aria-hidden="true">
+        <div class="bubble b1">Can I have the chicken and rice?<small>Ordering food &middot; Middle</small></div>
+        <div class="bubble b2 right">Does this bus go downtown?<small>Riding the bus &middot; Middle</small></div>
+        <div class="bubble b3">My head hurts.<small>Going to the doctor &middot; Beginner</small></div>
+        <div class="bubble b4 right">One of my strengths is teamwork.<small>Job interviews &middot; Confident</small></div>
+      </div>
+    </section>
+
+    <!-- ============ HOW ACTIVITIES WORK ============ -->
+    <section class="section">
+      <p class="eyebrow">Every activity, three parts</p>
+      <h2>Learn the words. Practice the phrases. Play the game.</h2>
+      <p class="sub">Every activity is about something students really deal with, and comes in three versions: beginner, middle and confident.</p>
+      <div class="parts">
+        <div class="part">
+          <h3>Key words</h3>
+          <p>Shown in English and in students' home languages, so beginners aren't lost.</p>
+          <div class="demo demo-word"><b>water</b><span>eau</span><span>agua</span><span dir="rtl" lang="ar">ماء</span><span>maji</span></div>
+        </div>
+        <div class="part">
+          <h3>Useful phrases</h3>
+          <p>Short, real sentences they will actually need, matched to their level.</p>
+          <div class="demo">&ldquo;Can I get the bill, please?&rdquo;</div>
+        </div>
+        <div class="part">
+          <h3>A game</h3>
+          <p>Everyone has to say the phrases out loud to play. Teams earn points.</p>
+          <div class="demo">Restaurant Role-Play: take turns as waiter and customer.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TOOLS ============ -->
+    <section class="section">
+      <p class="eyebrow">What's in the toolkit</p>
+      <h2>Pick the tool for the moment.</h2>
+      <div class="toolbox" id="toolbox"></div>
+    </section>
+
+    <!-- ============ KEEP EVERYONE IN ============ -->
+    <section class="section">
+      <p class="eyebrow">For students who tune out</p>
+      <h2>Three ways to bring them back in.</h2>
+      <div class="engage">
+        <div>
+          <h3>Let them vote</h3>
+          <p>The picture survey lets students choose the day's topic. People care more about what they picked.</p>
+        </div>
+        <div>
+          <h3>Make it a competition</h3>
+          <p>Every slideshow has a team scoreboard. Points for every sentence said out loud.</p>
+        </div>
+        <div>
+          <h3>Use their world</h3>
+          <p>Soccer, music, sneakers, phone videos, food from home: activities re-theme around what the group likes.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/core.js"></script>
+  <script>
+    const tools = [
+      ["planner.html", "vote", "Lesson planner", "Pick age, level and topic. Get icebreaker, key words, phrases, game and wrap-up.", true],
+      ["icebreakers.html", "ice", "Icebreaker library", "Filter by group size, age, English level and time. Steps for each one."],
+      ["activities.html", "food", "Activity library", "Ready-made English activities by topic, age group and level."],
+      ["survey.html", "soccer", "Day-one survey", "Students tap pictures, not words. See what the group is into."],
+      ["activities.html", "bus", "Slideshow", "Open any icebreaker or activity full screen, with a team scoreboard."],
+      ["add.html", "school", "Add your own", "Share a lesson or icebreaker so other counselors can use it."]
+    ];
+    document.getElementById("toolbox").innerHTML = tools.map(([href, icon, title, text, feature]) => `
+      <a class="tool${feature ? " feature" : ""}" href="${href}">
+        ${Icons.svg(icon)}
+        <h3>${title}</h3>
+        <p>${text}</p>
+      </a>`).join("");
+  </script>
+</body>
+</html>

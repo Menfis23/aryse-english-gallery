@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Slideshow · English Activity Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600;700;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="show-body">
+  <div class="show">
+    <header class="show-top">
+      <a class="show-exit" id="exit" href="activities.html">&larr; <span>Back</span></a>
+      <p class="show-title" id="title"></p>
+      <button type="button" class="show-btn" id="score-toggle" aria-pressed="true" title="Scoreboard (S)">Points</button>
+      <button type="button" class="show-btn" id="fullscreen" title="Full screen (F)">Full screen</button>
+    </header>
+
+    <main class="stage" id="stage" aria-live="polite"></main>
+
+    <footer class="show-bottom">
+      <button type="button" class="nav-btn" id="prev" aria-label="Previous slide">&larr;</button>
+      <div class="progress" id="progress"></div>
+      <button type="button" class="nav-btn nav-next" id="next" aria-label="Next slide">&rarr;</button>
+    </footer>
+  </div>
+
+  <!-- Team scoreboard: keys 1–4 add a point, Shift+1–4 takes one away -->
+  <aside class="scoreboard" id="scoreboard" aria-label="Team points"></aside>
+
+  <script src="js/config.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/slideshow.js"></script>
+</body>
+</html>

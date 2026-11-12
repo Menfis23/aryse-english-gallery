@@ -1,0 +1,70 @@
+{
+  "_about": "Interest themes from the picture survey. Each theme re-frames every topic around what the group likes.",
+
+  "themes": [
+    { "id": "soccer", "name": "Soccer" },
+    { "id": "basketball", "name": "Basketball" },
+    { "id": "music", "name": "Music" },
+    { "id": "gaming", "name": "Gaming" },
+    { "id": "sneakers", "name": "Sneakers & style" },
+    { "id": "homefood", "name": "Food from home" },
+    { "id": "videos", "name": "Phone videos & trends" }
+  ],
+
+  "scenarios": {
+    "food": {
+      "soccer": "Ordering snacks at a soccer game",
+      "basketball": "Ordering at the food stand during halftime",
+      "music": "Ordering food backstage at a concert",
+      "gaming": "Ordering pizza for a gaming tournament night",
+      "sneakers": "Ordering lunch at the food court after sneaker shopping",
+      "homefood": "A restaurant where every menu is a dish from home",
+      "videos": "Filming a food-review video: order it, taste it, rate it"
+    },
+    "bus": {
+      "soccer": "Taking the bus to the big soccer match",
+      "basketball": "Getting across town to a basketball game",
+      "music": "Riding the bus to a concert",
+      "gaming": "Finding the bus to a game store tournament",
+      "sneakers": "Taking the bus to a sneaker release at the mall",
+      "homefood": "Taking the bus to the store that sells food from home",
+      "videos": "Filming a 'how to ride the bus' video for new students"
+    },
+    "school": {
+      "soccer": "First day at school, and soccer tryouts after class",
+      "basketball": "Finding the gym and joining the basketball club",
+      "music": "First day, and finding the music room",
+      "gaming": "Joining the school gaming club",
+      "sneakers": "First-day outfit check: talking style with new classmates",
+      "homefood": "Sharing lunch from home with new friends",
+      "videos": "Making a 'day in my life at my new school' video"
+    },
+    "doctor": {
+      "soccer": "Seeing the doctor after a soccer injury",
+      "basketball": "A twisted ankle at basketball practice",
+      "music": "Losing your voice before a big performance",
+      "gaming": "Headaches and sore eyes after too much screen time",
+      "sneakers": "Blisters from brand-new sneakers",
+      "homefood": "A stomachache after a big family dinner",
+      "videos": "Explaining symptoms like a health video host"
+    },
+    "interview": {
+      "soccer": "Interviewing for a job at a sports store",
+      "basketball": "Interviewing to help coach a youth basketball team",
+      "music": "Interviewing at a music shop or concert venue",
+      "gaming": "Interviewing at a game store",
+      "sneakers": "Interviewing at a sneaker store",
+      "homefood": "Interviewing at a restaurant that cooks food from home",
+      "videos": "Interviewing for a social media assistant job"
+    },
+    "bank": {
+      "soccer": "Opening an account to save for new soccer cleats",
+      "basketball": "Saving up for basketball camp",
+      "music": "Saving for headphones and concert tickets",
+      "gaming": "Saving for a new game console",
+      "sneakers": "Saving for limited-edition sneakers",
+      "homefood": "Saving to cook a big meal for a family celebration",
+      "videos": "Opening an account to get paid for your videos"
+    }
+  }
+}

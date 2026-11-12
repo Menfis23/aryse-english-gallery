@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Icebreakers · English Activity Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600;700;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav"></header>
+
+  <main>
+    <section class="page-head">
+      <p class="eyebrow">Icebreaker library</p>
+      <h1>Get the room talking.</h1>
+      <p class="sub">Every icebreaker has steps and the English everyone says out loud, for each level.</p>
+    </section>
+
+    <section class="filters" aria-label="Filter icebreakers">
+      <div class="filters-box">
+        <div class="filter-row"><span class="filter-label">Group size</span><div class="pills" data-f="size"></div></div>
+        <div class="filter-row"><span class="filter-label">Age group</span><div class="pills" data-f="age"></div></div>
+        <div class="filter-row"><span class="filter-label">English level</span><div class="pills" data-f="level"></div></div>
+        <div class="filter-row"><span class="filter-label">Time</span><div class="pills" data-f="time"></div></div>
+        <div class="filter-foot"><p class="count" id="count"></p><button class="link-btn" id="clear" type="button" hidden>Clear filters</button></div>
+      </div>
+    </section>
+
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <footer class="footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/icebreakers.js"></script>
+</body>
+</html>

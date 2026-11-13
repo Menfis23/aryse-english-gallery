@@ -577,3 +577,21 @@ legend, .field > span {
   .word b { font-size: 1.3rem; }
   .word .tr { font-size: .9rem; }
 }
+
+/* ---------- Icebreaker library: search, styles, Surprise me ---------- */
+.search {
+  width: 100%; max-width: 420px; font: inherit; color: var(--ink);
+  padding: .5rem .85rem; border: 2px solid var(--line); border-radius: 999px; background: var(--sand);
+}
+.search:focus { outline: none; border-color: var(--teal); background: var(--paper); }
+#surprise { margin-top: .4rem; }
+.style-tag { display: flex; align-items: center; gap: .55rem; }
+.style-tag b { font-family: var(--font-display); font-size: .82rem; letter-spacing: .06em; text-transform: uppercase; }
+.style-tag .icon { width: 40px; height: 40px; }
+/* One color per style so the grid is easy to scan */
+.tile.s-move   { --c: var(--coral);     --cf: #fff; }
+.tile.s-talk   { --c: var(--teal);      --cf: var(--sun); }
+.tile.s-guess  { --c: var(--sun);       --cf: var(--ink); }
+.tile.s-create { --c: var(--sky);       --cf: #fff; }
+.tile.s-team   { --c: var(--ink);       --cf: var(--sun); }
+.tile.s-calm   { --c: var(--teal-soft); --cf: var(--teal-dark); }

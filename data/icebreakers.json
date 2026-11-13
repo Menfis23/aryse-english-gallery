@@ -1,12 +1,51 @@
 {
   "_about": "Icebreakers. groupMin/groupMax = how many campers it works for. sayIt = the English everyone must say out loud, per level.",
-
+  "styles": [
+    {
+      "id": "move",
+      "name": "Get moving"
+    },
+    {
+      "id": "talk",
+      "name": "Talk & share"
+    },
+    {
+      "id": "guess",
+      "name": "Guess & solve"
+    },
+    {
+      "id": "create",
+      "name": "Draw & create"
+    },
+    {
+      "id": "team",
+      "name": "Team challenge"
+    },
+    {
+      "id": "calm",
+      "name": "Calm & quiet"
+    }
+  ],
   "icebreakers": [
     {
-      "id": "two-truths", "name": "Two Truths and a Lie",
-      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
-      "groupMin": 4, "groupMax": 30, "minutes": 15,
-      "materials": ["Paper and pens (optional)"],
+      "id": "two-truths",
+      "name": "Two Truths and a Lie",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Paper and pens (optional)"
+      ],
       "steps": [
         "Each person thinks of three facts about themselves. Two are true, one is a lie.",
         "One by one, say your three facts out loud.",
@@ -14,17 +53,43 @@
         "Reveal the answer. Guessers who got it right earn a point."
       ],
       "sayIt": {
-        "beginner": ["I like ___.", "I have ___.", "I am from ___."],
-        "middle": ["I have been to ___.", "I can ___.", "I think number ___ is the lie."],
-        "confident": ["Once, I ___.", "I'm pretty sure that's the lie because ___."]
+        "beginner": [
+          "I like ___.",
+          "I have ___.",
+          "I am from ___."
+        ],
+        "middle": [
+          "I have been to ___.",
+          "I can ___.",
+          "I think number ___ is the lie."
+        ],
+        "confident": [
+          "Once, I ___.",
+          "I'm pretty sure that's the lie because ___."
+        ]
       },
       "levelTip": "Beginners can hold up three picture cards instead of writing."
     },
     {
-      "id": "picture-hunt", "name": "Picture Scavenger Hunt",
-      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
-      "groupMin": 6, "groupMax": 40, "minutes": 20,
-      "materials": ["Picture list (no words) for each team", "Phones or paper to check items off"],
+      "id": "picture-hunt",
+      "name": "Picture Scavenger Hunt",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 20,
+      "materials": [
+        "Picture list (no words) for each team",
+        "Phones or paper to check items off"
+      ],
       "steps": [
         "Give each team a list made only of pictures: a red thing, something round, a leaf, etc.",
         "Teams find each item in the room or outside.",
@@ -32,16 +97,36 @@
         "First team to finish (with every word said out loud) wins."
       ],
       "sayIt": {
-        "beginner": ["This is a ___.", "We found it!"],
-        "middle": ["We found a ___ next to the ___.", "Where is the ___?"],
-        "confident": ["We found a ___. It was hard because ___."]
+        "beginner": [
+          "This is a ___.",
+          "We found it!"
+        ],
+        "middle": [
+          "We found a ___ next to the ___.",
+          "Where is the ___?"
+        ],
+        "confident": [
+          "We found a ___. It was hard because ___."
+        ]
       },
       "levelTip": "Confident speakers can describe where they found each item."
     },
     {
-      "id": "name-motion", "name": "Name and Move",
-      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
-      "groupMin": 6, "groupMax": 30, "minutes": 10,
+      "id": "name-motion",
+      "name": "Name and Move",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 30,
+      "minutes": 10,
       "materials": [],
       "steps": [
         "Stand in a circle.",
@@ -50,17 +135,37 @@
         "Go around until everyone has had a turn. Then try to say everyone's names."
       ],
       "sayIt": {
-        "beginner": ["My name is ___. I like ___."],
-        "middle": ["I'm ___ and I love ___ because it's fun."],
-        "confident": ["I'm ___. On weekends I usually ___."]
+        "beginner": [
+          "My name is ___. I like ___."
+        ],
+        "middle": [
+          "I'm ___ and I love ___ because it's fun."
+        ],
+        "confident": [
+          "I'm ___. On weekends I usually ___."
+        ]
       },
       "levelTip": "Great first-day activity: no reading needed at all."
     },
     {
-      "id": "would-you-rather", "name": "Would You Rather",
-      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
-      "groupMin": 6, "groupMax": 40, "minutes": 10,
-      "materials": ["Two signs: one for each side of the room"],
+      "id": "would-you-rather",
+      "name": "Would You Rather",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Two signs: one for each side of the room"
+      ],
       "steps": [
         "Read a question with two choices, like 'pizza or rice?'",
         "Everyone walks to the side of the room for their choice.",
@@ -68,17 +173,37 @@
         "Anyone can switch sides if they hear a good reason."
       ],
       "sayIt": {
-        "beginner": ["I like ___.", "Pizza!"],
-        "middle": ["I would rather ___ because ___."],
-        "confident": ["I'd pick ___, but I understand why people like ___."]
+        "beginner": [
+          "I like ___.",
+          "Pizza!"
+        ],
+        "middle": [
+          "I would rather ___ because ___."
+        ],
+        "confident": [
+          "I'd pick ___, but I understand why people like ___."
+        ]
       },
       "levelTip": "For beginners, show the two choices as pictures."
     },
     {
-      "id": "find-someone", "name": "Find Someone Who",
-      "ages": ["11-14", "15-21"], "levels": ["middle", "confident"],
-      "groupMin": 10, "groupMax": 40, "minutes": 15,
-      "materials": ["Bingo cards with 'Find someone who…' boxes"],
+      "id": "find-someone",
+      "name": "Find Someone Who",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 10,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Bingo cards with 'Find someone who…' boxes"
+      ],
       "steps": [
         "Each person gets a bingo card: 'Find someone who plays soccer', 'speaks three languages'…",
         "Walk around and ask questions out loud.",
@@ -86,17 +211,40 @@
         "First to get a full line shouts 'Bingo!' and reads the names."
       ],
       "sayIt": {
-        "beginner": ["Do you ___?", "Yes / No"],
-        "middle": ["Do you play soccer?", "Can you sign here, please?"],
-        "confident": ["Have you ever ___?", "Tell me more about that."]
+        "beginner": [
+          "Do you ___?",
+          "Yes / No"
+        ],
+        "middle": [
+          "Do you play soccer?",
+          "Can you sign here, please?"
+        ],
+        "confident": [
+          "Have you ever ___?",
+          "Tell me more about that."
+        ]
       },
       "levelTip": "Use picture boxes for a beginner version."
     },
     {
-      "id": "snowball", "name": "Paper Snowball Fight",
-      "ages": ["11-14", "15-21"], "levels": ["middle", "confident"],
-      "groupMin": 10, "groupMax": 40, "minutes": 10,
-      "materials": ["One sheet of paper per person", "Pens"],
+      "id": "snowball",
+      "name": "Paper Snowball Fight",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 10,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "One sheet of paper per person",
+        "Pens"
+      ],
       "steps": [
         "Everyone writes an answer to a fun question, like 'My favorite food is…'.",
         "Crumple the paper into a snowball.",
@@ -104,17 +252,38 @@
         "Pick up a snowball, read it out loud, and guess who wrote it."
       ],
       "sayIt": {
-        "beginner": ["It says ___.", "Is it you?"],
-        "middle": ["This says ___. I think ___ wrote it."],
-        "confident": ["I'm guessing ___ wrote this because ___."]
+        "beginner": [
+          "It says ___.",
+          "Is it you?"
+        ],
+        "middle": [
+          "This says ___. I think ___ wrote it."
+        ],
+        "confident": [
+          "I'm guessing ___ wrote this because ___."
+        ]
       },
       "levelTip": "Keep the question simple and the snowball fight short."
     },
     {
-      "id": "where-from", "name": "Where I'm From Line",
-      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
-      "groupMin": 6, "groupMax": 30, "minutes": 15,
-      "materials": ["A big world map, or tape on the floor as a map"],
+      "id": "where-from",
+      "name": "Where I'm From Line",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "A big world map, or tape on the floor as a map"
+      ],
       "steps": [
         "Lay out a world map or a tape map on the floor.",
         "Everyone stands on a place that matters to them.",
@@ -122,17 +291,39 @@
         "Others can ask one question."
       ],
       "sayIt": {
-        "beginner": ["I am from ___.", "It is hot / cold."],
-        "middle": ["I'm from ___. The food there is ___."],
-        "confident": ["I grew up in ___. Something I miss is ___."]
+        "beginner": [
+          "I am from ___.",
+          "It is hot / cold."
+        ],
+        "middle": [
+          "I'm from ___. The food there is ___."
+        ],
+        "confident": [
+          "I grew up in ___. Something I miss is ___."
+        ]
       },
       "levelTip": "Let students choose any place: home, a city they love, a dream trip."
     },
     {
-      "id": "music-guess", "name": "Name That Song",
-      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
-      "groupMin": 6, "groupMax": 40, "minutes": 15,
-      "materials": ["Speaker", "Short clips of songs the students choose (check them first)"],
+      "id": "music-guess",
+      "name": "Name That Song",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Speaker",
+        "Short clips of songs the students choose (check them first)"
+      ],
       "steps": [
         "Before camp, ask students for one song they love from home or from now.",
         "Play 10 seconds of a song.",
@@ -140,17 +331,40 @@
         "The person who picked it tells the group about it."
       ],
       "sayIt": {
-        "beginner": ["It is fast / slow.", "I like it!"],
-        "middle": ["This song sounds ___. I think ___ picked it."],
-        "confident": ["This song reminds me of ___ because ___."]
+        "beginner": [
+          "It is fast / slow.",
+          "I like it!"
+        ],
+        "middle": [
+          "This song sounds ___. I think ___ picked it."
+        ],
+        "confident": [
+          "This song reminds me of ___ because ___."
+        ]
       },
       "levelTip": "Use their world: songs from home and current hits both count."
     },
     {
-      "id": "draw-say", "name": "Draw It, Say It",
-      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
-      "groupMin": 6, "groupMax": 24, "minutes": 15,
-      "materials": ["Paper", "Markers", "Word cards"],
+      "id": "draw-say",
+      "name": "Draw It, Say It",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 24,
+      "minutes": 15,
+      "materials": [
+        "Paper",
+        "Markers",
+        "Word cards"
+      ],
       "steps": [
         "One player from each team picks a word card.",
         "They draw it without letters or numbers.",
@@ -158,16 +372,36 @@
         "The first team to say the exact word gets the point."
       ],
       "sayIt": {
-        "beginner": ["Is it a ___?", "Yes! / No!"],
-        "middle": ["It looks like a ___.", "Is it something you eat?"],
-        "confident": ["It could be a ___, or maybe a ___."]
+        "beginner": [
+          "Is it a ___?",
+          "Yes! / No!"
+        ],
+        "middle": [
+          "It looks like a ___.",
+          "Is it something you eat?"
+        ],
+        "confident": [
+          "It could be a ___, or maybe a ___."
+        ]
       },
       "levelTip": "Pull word cards from today's topic to warm up the key words."
     },
     {
-      "id": "human-knot", "name": "Human Knot with Directions",
-      "ages": ["11-14", "15-21"], "levels": ["beginner", "middle", "confident"],
-      "groupMin": 8, "groupMax": 20, "minutes": 10,
+      "id": "human-knot",
+      "name": "Human Knot with Directions",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 8,
+      "groupMax": 20,
+      "minutes": 10,
       "materials": [],
       "steps": [
         "Stand in a tight circle and grab two different hands across the circle.",
@@ -176,11 +410,3419 @@
         "Time each team. Try again and beat your time."
       ],
       "sayIt": {
-        "beginner": ["Left!", "Right!", "Up!", "Down!", "Stop!"],
-        "middle": ["Step over my arm.", "Turn to the left."],
-        "confident": ["If you go under there, we can turn around."]
+        "beginner": [
+          "Left!",
+          "Right!",
+          "Up!",
+          "Down!",
+          "Stop!"
+        ],
+        "middle": [
+          "Step over my arm.",
+          "Turn to the left."
+        ],
+        "confident": [
+          "If you go under there, we can turn around."
+        ]
       },
       "levelTip": "Good warm-up before the Riding the bus activity (left, right, stop)."
+    },
+    {
+      "id": "word-freeze",
+      "name": "Word Freeze Dance",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Speaker",
+        "Picture cards"
+      ],
+      "steps": [
+        "Play music. Everyone dances.",
+        "Stop the music and hold up a picture card.",
+        "Everyone freezes. The first person to say the word out loud gets a point.",
+        "Winners pick the next song."
+      ],
+      "sayIt": {
+        "beginner": [
+          "It's a ___!"
+        ],
+        "middle": [
+          "That's a ___. You use it to ___."
+        ],
+        "confident": [
+          "It's a ___. I use one when I ___."
+        ]
+      },
+      "levelTip": "Pull the picture cards from today's topic to warm up the key words."
+    },
+    {
+      "id": "four-corners",
+      "name": "Four Corners Vote",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 8,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Four picture signs, one per corner"
+      ],
+      "steps": [
+        "Put a picture in each corner: pizza, rice, tacos, soup.",
+        "Ask a question: 'Which one for dinner?'",
+        "Everyone walks to a corner.",
+        "One person in each corner tells the room why. Then ask a new question."
+      ],
+      "sayIt": {
+        "beginner": [
+          "I like ___."
+        ],
+        "middle": [
+          "I picked ___ because ___."
+        ],
+        "confident": [
+          "I'd choose ___, mostly because ___."
+        ]
+      },
+      "levelTip": "Change the pictures every round: sports, places, animals, seasons."
+    },
+    {
+      "id": "birthday-line",
+      "name": "Silent Birthday Line",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 8,
+      "groupMax": 35,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Everyone lines up in order of birthday, January to December.",
+        "No talking! Use fingers and gestures only.",
+        "When the line is done, go down the line. Each person says their birthday out loud.",
+        "Fix any mistakes together."
+      ],
+      "sayIt": {
+        "beginner": [
+          "My birthday is in ___."
+        ],
+        "middle": [
+          "My birthday is ___ ___th."
+        ],
+        "confident": [
+          "I was born on ___. We usually celebrate by ___."
+        ]
+      },
+      "levelTip": "Great for practicing months and ordinal numbers (first, second, third)."
+    },
+    {
+      "id": "simon-remix",
+      "name": "Simon Says Remix",
+      "style": "move",
+      "ages": [
+        "11-14"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Play Simon Says with body parts and directions.",
+        "After two rounds, a student becomes Simon.",
+        "Simon must give every command in English.",
+        "Anyone who moves without 'Simon says' becomes the next Simon."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Simon says touch your ___."
+        ],
+        "middle": [
+          "Simon says turn left and jump."
+        ],
+        "confident": [
+          "Simon says walk backwards, then touch your right elbow."
+        ]
+      },
+      "levelTip": "Beginners can point at the body part as they say it."
+    },
+    {
+      "id": "question-chairs",
+      "name": "Musical Question Chairs",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 25,
+      "minutes": 15,
+      "materials": [
+        "Chairs (one fewer than players)",
+        "Question cards",
+        "Speaker"
+      ],
+      "steps": [
+        "Play musical chairs.",
+        "When the music stops, the person without a chair picks a question card.",
+        "They answer out loud, then stay in the game.",
+        "Remove a chair every two rounds."
+      ],
+      "sayIt": {
+        "beginner": [
+          "My favorite ___ is ___."
+        ],
+        "middle": [
+          "I like ___ because ___."
+        ],
+        "confident": [
+          "Honestly, I think ___."
+        ]
+      },
+      "levelTip": "Nobody is out: answering a question is the 'penalty'."
+    },
+    {
+      "id": "rps-cheer",
+      "name": "Rock Paper Scissors Fan Club",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 10,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Everyone finds a partner and plays rock paper scissors.",
+        "The loser becomes the winner's fan and follows them, cheering their name.",
+        "Winners find new winners. Fans keep cheering.",
+        "At the end, two giant fan clubs cheer for the final match."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Go, ___!"
+        ],
+        "middle": [
+          "Let's go, ___! You can do it!"
+        ],
+        "confident": [
+          "Come on, ___, you've got this!"
+        ]
+      },
+      "levelTip": "Loud and silly in the best way. Good after lunch."
+    },
+    {
+      "id": "color-relay",
+      "name": "Color Hunt Relay",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Split into teams.",
+        "Call out a color: 'Something blue!'",
+        "Teams run and touch something that color.",
+        "The first team to name the object in English gets the point."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Blue! A chair!"
+        ],
+        "middle": [
+          "This is a blue backpack."
+        ],
+        "confident": [
+          "We found a dark blue water bottle next to the door."
+        ]
+      },
+      "levelTip": "Add shapes later: 'Something round and red!'"
+    },
+    {
+      "id": "mirror-me",
+      "name": "Mirror Me",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Partners face each other.",
+        "One person moves slowly. The other copies like a mirror.",
+        "Then the leader says each move out loud while doing it.",
+        "Switch roles."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Hands up. Hands down."
+        ],
+        "middle": [
+          "Raise your left arm. Turn around."
+        ],
+        "confident": [
+          "Slowly lift your right knee while you wave."
+        ]
+      },
+      "levelTip": "Practice left and right before the Riding the bus activity."
+    },
+    {
+      "id": "stand-up-if",
+      "name": "Stand Up If…",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Everyone sits.",
+        "Say: 'Stand up if you have a brother.'",
+        "Everyone who stands says one sentence about it.",
+        "Students take turns calling the next 'Stand up if…'"
+      ],
+      "sayIt": {
+        "beginner": [
+          "I have a brother."
+        ],
+        "middle": [
+          "I have two brothers. They are older."
+        ],
+        "confident": [
+          "I have a brother who lives in ___."
+        ]
+      },
+      "levelTip": "Keep it light: pets, foods, games, sports, music."
+    },
+    {
+      "id": "weather-moves",
+      "name": "Weather Report Moves",
+      "style": "move",
+      "ages": [
+        "11-14"
+      ],
+      "levels": [
+        "beginner",
+        "middle"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 5,
+      "materials": [],
+      "steps": [
+        "Teach a move for each weather word: rain (wiggle fingers), wind (sway), snow (shiver), sun (stretch).",
+        "Call the weather. Everyone acts it out.",
+        "Speed up!",
+        "Students take turns being the weather reporter."
+      ],
+      "sayIt": {
+        "beginner": [
+          "It's sunny!",
+          "It's raining!"
+        ],
+        "middle": [
+          "Today it's windy and cold."
+        ],
+        "confident": [
+          "Tomorrow will be rainy in the morning."
+        ]
+      },
+      "levelTip": "Quick energizer for the start of a session."
+    },
+    {
+      "id": "number-groups",
+      "name": "Make a Group Of…",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 10,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Everyone walks around the room.",
+        "Call: 'Make groups of 3 with the same favorite color!'",
+        "Students ask each other to find their group.",
+        "Each group says what they have in common."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Red? Me too!"
+        ],
+        "middle": [
+          "What's your favorite color?"
+        ],
+        "confident": [
+          "We all like ___, so we're a group."
+        ]
+      },
+      "levelTip": "Try favorite season, number of siblings, or favorite fruit."
+    },
+    {
+      "id": "ball-memory",
+      "name": "Ball Toss Memory",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 20,
+      "minutes": 10,
+      "materials": [
+        "A soft ball"
+      ],
+      "steps": [
+        "Stand in a circle.",
+        "Toss the ball and say your name and one thing you like.",
+        "The catcher repeats what the last person said, then adds their own.",
+        "How long can the chain go?"
+      ],
+      "sayIt": {
+        "beginner": [
+          "She is ___. She likes ___."
+        ],
+        "middle": [
+          "___ likes ___, and I like ___."
+        ],
+        "confident": [
+          "___ said she loves ___. As for me, ___."
+        ]
+      },
+      "levelTip": "Practice he/she/they while remembering names."
+    },
+    {
+      "id": "opposites-run",
+      "name": "Opposites Run",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle"
+      ],
+      "groupMin": 8,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [
+        "Word or picture cards spread on the floor"
+      ],
+      "steps": [
+        "Spread opposite cards on the floor: hot, cold, big, small, fast, slow.",
+        "Call a word: 'Hot!'",
+        "Teams race to grab its opposite.",
+        "They must say both words in a sentence to keep the card."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Hot. Cold."
+        ],
+        "middle": [
+          "The soup is hot. The ice is cold."
+        ],
+        "confident": [
+          "It's hot outside, but the water is freezing cold."
+        ]
+      },
+      "levelTip": "Picture cards make it work for true beginners."
+    },
+    {
+      "id": "shake-countdown",
+      "name": "Shake Down 5-4-3-2-1",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 5,
+      "materials": [],
+      "steps": [
+        "Shake your right hand and count down from 5 out loud.",
+        "Then left hand, right foot, left foot.",
+        "Then 4, 3, 2, 1 for each.",
+        "Repeat in each home language in the room!"
+      ],
+      "sayIt": {
+        "beginner": [
+          "Five, four, three, two, one!"
+        ],
+        "middle": [
+          "Count with me!"
+        ],
+        "confident": [
+          "Now let's do it in ___!"
+        ]
+      },
+      "levelTip": "Let students lead the countdown in their own languages."
+    },
+    {
+      "id": "walk-talk-swap",
+      "name": "Walk, Talk, Swap",
+      "style": "move",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 10,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Question cards (one per person)"
+      ],
+      "steps": [
+        "Everyone gets a question card and walks around.",
+        "Find a partner. Ask your question, answer theirs.",
+        "Swap cards and find a new partner.",
+        "After 5 swaps, share the best answer you heard."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Do you like ___?"
+        ],
+        "middle": [
+          "What do you do on weekends?"
+        ],
+        "confident": [
+          "What's something you'd love to learn?"
+        ]
+      },
+      "levelTip": "Write easier questions on one side and harder on the other."
+    },
+    {
+      "id": "hot-seat-best",
+      "name": "Hot Seat: The Best",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 25,
+      "minutes": 15,
+      "materials": [
+        "A chair"
+      ],
+      "steps": [
+        "One person sits in the hot seat.",
+        "The group asks 'What's the best ___?' questions: food, song, place, game.",
+        "The person answers fast, with one reason.",
+        "Rotate after 3 questions."
+      ],
+      "sayIt": {
+        "beginner": [
+          "The best food is ___."
+        ],
+        "middle": [
+          "The best place is ___ because ___."
+        ],
+        "confident": [
+          "Hands down, the best ___ is ___."
+        ]
+      },
+      "levelTip": "Students learn 'best', 'better' and 'good' without a grammar lesson."
+    },
+    {
+      "id": "face-cards",
+      "name": "Face Card Feelings",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [
+        "Cards with drawn faces: happy, tired, excited, nervous, bored, proud"
+      ],
+      "steps": [
+        "Spread the face cards in the middle.",
+        "Each person picks the face that matches how they feel today.",
+        "They hold it up and say the feeling.",
+        "Middle and confident speakers add why."
+      ],
+      "sayIt": {
+        "beginner": [
+          "I feel ___."
+        ],
+        "middle": [
+          "I feel ___ because ___."
+        ],
+        "confident": [
+          "Today I'm a bit ___, mostly because ___."
+        ]
+      },
+      "levelTip": "A gentle way to check in with students who are having a hard week."
+    },
+    {
+      "id": "island-three",
+      "name": "Island Three",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Picture cards of everyday items (optional)"
+      ],
+      "steps": [
+        "You're going to an island for a month. You can bring only three things.",
+        "Each person picks their three.",
+        "Share them with the group.",
+        "Vote: whose list would survive best?"
+      ],
+      "sayIt": {
+        "beginner": [
+          "I bring ___, ___ and ___."
+        ],
+        "middle": [
+          "I would bring ___ because ___."
+        ],
+        "confident": [
+          "I'd take ___, since without it I couldn't ___."
+        ]
+      },
+      "levelTip": "Beginners can pick from picture cards."
+    },
+    {
+      "id": "snack-debate",
+      "name": "Snack Debate",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Two snack pictures per round"
+      ],
+      "steps": [
+        "Show two snacks: chips or fruit? Mango or apple?",
+        "Split the room by choice.",
+        "Each side gets one minute to give reasons.",
+        "Anyone convinced can switch sides."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Chips are better!"
+        ],
+        "middle": [
+          "___ is better because ___."
+        ],
+        "confident": [
+          "I see your point, but ___."
+        ]
+      },
+      "levelTip": "Teaches polite disagreeing: 'I see your point, but…'"
+    },
+    {
+      "id": "speed-chat",
+      "name": "Speed Chat",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 8,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Timer",
+        "Question cards"
+      ],
+      "steps": [
+        "Make two lines facing each other.",
+        "Show a question. Partners talk for 60 seconds.",
+        "One line moves one step to the left.",
+        "New partner, new question."
+      ],
+      "sayIt": {
+        "beginner": [
+          "What's your name?",
+          "Where are you from?"
+        ],
+        "middle": [
+          "What's your favorite ___? Why?"
+        ],
+        "confident": [
+          "If you could ___, what would you do?"
+        ]
+      },
+      "levelTip": "Students meet everyone in 15 minutes."
+    },
+    {
+      "id": "name-story",
+      "name": "The Story of My Name",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 25,
+      "minutes": 15,
+      "materials": [],
+      "steps": [
+        "Think about your name. Who chose it? What does it mean?",
+        "Share in small groups.",
+        "Each group picks one name story to tell everyone.",
+        "Practice saying each name correctly."
+      ],
+      "sayIt": {
+        "beginner": [
+          "My name is ___. It means ___."
+        ],
+        "middle": [
+          "My ___ chose my name. It means ___."
+        ],
+        "confident": [
+          "I was named after ___, because ___."
+        ]
+      },
+      "levelTip": "Shows students their names matter. Ask how to say each name correctly."
+    },
+    {
+      "id": "pass-story",
+      "name": "Pass the Story",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 20,
+      "minutes": 15,
+      "materials": [
+        "A small object to pass"
+      ],
+      "steps": [
+        "Start a story: 'One day, a cat got on the bus…'",
+        "Pass the object. The next person adds one sentence.",
+        "Keep going around the circle.",
+        "The last person must end the story."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Then the cat ___."
+        ],
+        "middle": [
+          "Suddenly, ___."
+        ],
+        "confident": [
+          "Just when everything seemed fine, ___."
+        ]
+      },
+      "levelTip": "Teach story words: first, then, suddenly, finally."
+    },
+    {
+      "id": "introduce-partner",
+      "name": "Meet My Partner",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [],
+      "steps": [
+        "Pair up. Ask your partner three questions.",
+        "Remember the answers.",
+        "Introduce your partner to the group.",
+        "The partner says 'Yes!' or fixes anything wrong."
+      ],
+      "sayIt": {
+        "beginner": [
+          "This is ___. She likes ___."
+        ],
+        "middle": [
+          "This is ___. He's from ___ and he loves ___."
+        ],
+        "confident": [
+          "I'd like you to meet ___, who ___."
+        ]
+      },
+      "levelTip": "Talking about someone else feels less scary than talking about yourself."
+    },
+    {
+      "id": "animal-me",
+      "name": "If I Were an Animal",
+      "style": "talk",
+      "ages": [
+        "11-14"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [
+        "Animal picture cards (optional)"
+      ],
+      "steps": [
+        "Everyone thinks: if I were an animal, which one?",
+        "Act it out for 3 seconds.",
+        "Say the animal and why.",
+        "The group guesses before you say it."
+      ],
+      "sayIt": {
+        "beginner": [
+          "I am a ___."
+        ],
+        "middle": [
+          "I'm a ___ because I'm ___."
+        ],
+        "confident": [
+          "I'd be a ___, since I'm ___ like them."
+        ]
+      },
+      "levelTip": "Good for describing words: fast, quiet, strong, funny."
+    },
+    {
+      "id": "high-low",
+      "name": "High, Low, Wow",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Each person shares three things from their week:",
+        "High: something good. Low: something hard. Wow: something surprising.",
+        "Others can say 'Me too!' or ask one question.",
+        "Counselor goes first."
+      ],
+      "sayIt": {
+        "beginner": [
+          "My high is ___."
+        ],
+        "middle": [
+          "My low was ___. My wow was ___."
+        ],
+        "confident": [
+          "The best part of my week was ___."
+        ]
+      },
+      "levelTip": "Students can skip the 'low' if they prefer."
+    },
+    {
+      "id": "pocket-show",
+      "name": "Pocket Show and Tell",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 25,
+      "minutes": 15,
+      "materials": [],
+      "steps": [
+        "Everyone finds one thing in their pocket or bag.",
+        "Hide it behind your back.",
+        "Give the group one clue. They guess.",
+        "Show it and say one sentence about it."
+      ],
+      "sayIt": {
+        "beginner": [
+          "It's a ___."
+        ],
+        "middle": [
+          "I use this every day to ___."
+        ],
+        "confident": [
+          "This means a lot to me because ___."
+        ]
+      },
+      "levelTip": "Phones count, and lead to great conversations."
+    },
+    {
+      "id": "home-menu",
+      "name": "Menu From Home",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Paper",
+        "Markers"
+      ],
+      "steps": [
+        "Everyone draws a dish from home.",
+        "Write or say three ingredients.",
+        "Present it like a restaurant special.",
+        "The group votes on what they want to try."
+      ],
+      "sayIt": {
+        "beginner": [
+          "This is ___. It has ___."
+        ],
+        "middle": [
+          "This is ___. We eat it on ___."
+        ],
+        "confident": [
+          "My family makes ___ for special days. It tastes ___."
+        ]
+      },
+      "levelTip": "Food from home is a favorite topic. Expect lots of energy."
+    },
+    {
+      "id": "agree-disagree",
+      "name": "Agree or Disagree Line",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 8,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Tape line on the floor"
+      ],
+      "steps": [
+        "Read a fun statement: 'Breakfast is the best meal.'",
+        "Agree: step left. Disagree: step right. Not sure: stay on the line.",
+        "A few people explain their choice.",
+        "Students write the next statement."
+      ],
+      "sayIt": {
+        "beginner": [
+          "I agree.",
+          "I disagree."
+        ],
+        "middle": [
+          "I agree because ___."
+        ],
+        "confident": [
+          "I partly agree, but ___."
+        ]
+      },
+      "levelTip": "Keep statements fun and safe: food, sports, music, school."
+    },
+    {
+      "id": "three-common",
+      "name": "Three Things in Common",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Make groups of three or four.",
+        "Find three things everyone in the group has in common.",
+        "No easy ones like 'we have hair'!",
+        "Each group shares their list."
+      ],
+      "sayIt": {
+        "beginner": [
+          "We all like ___."
+        ],
+        "middle": [
+          "All of us have ___."
+        ],
+        "confident": [
+          "Surprisingly, none of us ___."
+        ]
+      },
+      "levelTip": "Great for mixing students who don't know each other."
+    },
+    {
+      "id": "dream-saturday",
+      "name": "Dream Saturday",
+      "style": "talk",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Paper with morning, afternoon, night boxes"
+      ],
+      "steps": [
+        "Plan your perfect Saturday. No limits!",
+        "Draw or write morning, afternoon and night.",
+        "Share it with a partner.",
+        "Partners tell the group the best part of each other's day."
+      ],
+      "sayIt": {
+        "beginner": [
+          "In the morning, I ___."
+        ],
+        "middle": [
+          "In the afternoon, I'm going to ___."
+        ],
+        "confident": [
+          "I'd start the day by ___, then ___."
+        ]
+      },
+      "levelTip": "Practices time words and future tense."
+    },
+    {
+      "id": "mystery-bag",
+      "name": "Mystery Bag",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [
+        "A cloth bag",
+        "Everyday objects: spoon, key, ball, comb"
+      ],
+      "steps": [
+        "Put an object in the bag. No peeking!",
+        "One person feels it and describes it out loud.",
+        "The group guesses what it is.",
+        "Pull it out. Everyone says the word together."
+      ],
+      "sayIt": {
+        "beginner": [
+          "It's small. It's hard."
+        ],
+        "middle": [
+          "It feels smooth and round."
+        ],
+        "confident": [
+          "It's cold, metal, and has a hole at one end."
+        ]
+      },
+      "levelTip": "Teaches describing words: soft, hard, round, heavy."
+    },
+    {
+      "id": "forehead-who",
+      "name": "Who Am I? Sticky Notes",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Sticky notes with animals, foods or jobs"
+      ],
+      "steps": [
+        "Stick a note on each person's forehead without them seeing it.",
+        "Walk around and ask yes/no questions.",
+        "Others can only answer yes or no.",
+        "Guess your word to win. Help others after."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Am I an animal?"
+        ],
+        "middle": [
+          "Can I fly? Do I live in water?"
+        ],
+        "confident": [
+          "Would people find me in a kitchen?"
+        ]
+      },
+      "levelTip": "Use words from today's topic for practice."
+    },
+    {
+      "id": "twenty-animals",
+      "name": "20 Questions: Zoo Edition",
+      "style": "guess",
+      "ages": [
+        "11-14"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "One person thinks of an animal.",
+        "The group asks yes/no questions. Count them out loud.",
+        "Guess in 20 or fewer to win.",
+        "The winner picks the next animal."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Is it big?"
+        ],
+        "middle": [
+          "Does it live in Africa?"
+        ],
+        "confident": [
+          "Is it bigger than a dog but smaller than a horse?"
+        ]
+      },
+      "levelTip": "Keep a tally on the board so everyone hears the numbers."
+    },
+    {
+      "id": "sound-detective",
+      "name": "Sound Detective",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Phone or speaker with everyday sounds",
+        "Or objects to make sounds"
+      ],
+      "steps": [
+        "Everyone closes their eyes.",
+        "Play a sound: a door, rain, a bus, a phone ringing.",
+        "Teams whisper, then say their guess.",
+        "Points for the right word in English."
+      ],
+      "sayIt": {
+        "beginner": [
+          "It's a ___!"
+        ],
+        "middle": [
+          "I think it's a ___."
+        ],
+        "confident": [
+          "It sounds like someone ___."
+        ]
+      },
+      "levelTip": "Pick sounds from places students go: bus, school, kitchen."
+    },
+    {
+      "id": "shadow-pose",
+      "name": "Shadow Pose",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [
+        "A sheet and a lamp, or a wall and a phone flashlight"
+      ],
+      "steps": [
+        "One person stands behind the sheet with a light behind them.",
+        "They make a pose: a basketball shot, cooking, a superhero.",
+        "The group guesses the action out loud.",
+        "Correct guesser goes next."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Cooking!"
+        ],
+        "middle": [
+          "You're shooting a basketball."
+        ],
+        "confident": [
+          "You look like you're waiting for the bus."
+        ]
+      },
+      "levelTip": "Shadows make shy students feel less watched."
+    },
+    {
+      "id": "fact-match",
+      "name": "Secret Fact Match",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 8,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Small papers",
+        "A bowl"
+      ],
+      "steps": [
+        "Everyone writes a surprising fact about themselves. No names!",
+        "Mix the papers in a bowl.",
+        "Read one out loud. The group guesses who wrote it.",
+        "The writer reveals themselves and adds one detail."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Is it ___?"
+        ],
+        "middle": [
+          "I think ___ wrote it because ___."
+        ],
+        "confident": [
+          "It must be ___, they told me once that ___."
+        ]
+      },
+      "levelTip": "Check papers quickly before reading out loud."
+    },
+    {
+      "id": "daily-charades",
+      "name": "Everyday Charades",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Action cards: brushing teeth, catching a bus, cooking rice"
+      ],
+      "steps": [
+        "A player picks an action card and acts it out.",
+        "No words, no sounds.",
+        "Their team guesses using the full sentence.",
+        "Score a point for the right verb."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Brushing teeth!"
+        ],
+        "middle": [
+          "You are washing dishes."
+        ],
+        "confident": [
+          "You're running to catch the bus, but you missed it."
+        ]
+      },
+      "levelTip": "Builds everyday verbs students need at home and school."
+    },
+    {
+      "id": "zoom-photo",
+      "name": "Zoomed-In Photo",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Very close-up photos of everyday things (take them yourself)"
+      ],
+      "steps": [
+        "Show a super close-up photo.",
+        "Teams guess what it is.",
+        "Zoom out a little each round.",
+        "Fewer zooms = more points."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Is it a ___?"
+        ],
+        "middle": [
+          "It looks like a ___."
+        ],
+        "confident": [
+          "It could be the edge of a ___."
+        ]
+      },
+      "levelTip": "Photograph things around camp: a shoe, a pencil, a leaf."
+    },
+    {
+      "id": "hum-tune",
+      "name": "Hum That Tune",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "One person hums a song they love. No words!",
+        "The group guesses the song or the singer.",
+        "The hummer says one thing about the song.",
+        "Songs from home count. Teach the group the title."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Is it ___?"
+        ],
+        "middle": [
+          "I know this song! It's by ___."
+        ],
+        "confident": [
+          "This song reminds me of ___."
+        ]
+      },
+      "levelTip": "Everyone's world shows up: hits from now and songs from home."
+    },
+    {
+      "id": "odd-one-out",
+      "name": "Odd One Out",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Sets of four pictures, one doesn't belong"
+      ],
+      "steps": [
+        "Show four pictures: apple, banana, bus, grape.",
+        "Teams decide which doesn't belong.",
+        "They must explain why.",
+        "Any good reason gets a point, even an unexpected one!"
+      ],
+      "sayIt": {
+        "beginner": [
+          "Bus. It's not food."
+        ],
+        "middle": [
+          "The bus is different because ___."
+        ],
+        "confident": [
+          "Actually, the banana is the odd one, since ___."
+        ]
+      },
+      "levelTip": "Reward creative answers. There can be more than one right reason."
+    },
+    {
+      "id": "price-guess",
+      "name": "What Does It Cost?",
+      "style": "guess",
+      "ages": [
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Pictures of everyday items with real prices hidden"
+      ],
+      "steps": [
+        "Show an item: a bus pass, a gallon of milk, sneakers.",
+        "Teams write their price guess.",
+        "Each team says their number out loud.",
+        "Closest without going over wins."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Five dollars."
+        ],
+        "middle": [
+          "We think it costs about ___ dollars."
+        ],
+        "confident": [
+          "Probably around ___, depending on the store."
+        ]
+      },
+      "levelTip": "Practices numbers and money before the bank activity."
+    },
+    {
+      "id": "whats-missing",
+      "name": "What's Missing?",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [
+        "A tray",
+        "8–10 small objects",
+        "A towel"
+      ],
+      "steps": [
+        "Show the tray for 30 seconds. Everyone says the objects together.",
+        "Cover it with the towel. Remove one object.",
+        "Uncover. What's missing?",
+        "Add more objects each round."
+      ],
+      "sayIt": {
+        "beginner": [
+          "The ___!"
+        ],
+        "middle": [
+          "The ___ is missing."
+        ],
+        "confident": [
+          "Someone took the ___ that was next to the ___."
+        ]
+      },
+      "levelTip": "Memory plus vocabulary in one game."
+    },
+    {
+      "id": "last-letter",
+      "name": "Last Letter Chain",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Pick a category: food, animals, places.",
+        "The first person says a word: 'apple'.",
+        "The next word must start with the last letter: 'egg'.",
+        "Can't think of one? Ask the group for help."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Apple. Egg."
+        ],
+        "middle": [
+          "___ starts with ___."
+        ],
+        "confident": [
+          "Let me think… ___!"
+        ]
+      },
+      "levelTip": "Write the chain on the board so everyone sees the spelling."
+    },
+    {
+      "id": "taboo-lite",
+      "name": "Don't Say It!",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Word cards, each with one 'banned' word"
+      ],
+      "steps": [
+        "A player draws a card: 'pizza' (banned word: 'cheese').",
+        "Describe the word without saying it or the banned word.",
+        "The team guesses.",
+        "One minute per player."
+      ],
+      "sayIt": {
+        "beginner": [
+          "It's food. It's round."
+        ],
+        "middle": [
+          "You eat it in slices."
+        ],
+        "confident": [
+          "People usually order it for parties."
+        ]
+      },
+      "levelTip": "Pushes students to find new ways to say things."
+    },
+    {
+      "id": "word-math",
+      "name": "Picture Word Math",
+      "style": "guess",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Picture pairs for compound words"
+      ],
+      "steps": [
+        "Show two pictures: sun + flower.",
+        "Teams combine them into one word.",
+        "First team to say 'sunflower' wins the point.",
+        "Teams then make their own puzzles."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Sunflower!"
+        ],
+        "middle": [
+          "Sun plus flower is sunflower."
+        ],
+        "confident": [
+          "If you put ___ and ___ together, you get ___."
+        ]
+      },
+      "levelTip": "Try: foot+ball, rain+bow, home+work, bed+room."
+    },
+    {
+      "id": "blind-portrait",
+      "name": "Blind Portraits",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Paper",
+        "Pens"
+      ],
+      "steps": [
+        "Partners face each other.",
+        "Draw your partner without looking at your paper!",
+        "Show the (very funny) drawings.",
+        "Describe one feature you tried to draw."
+      ],
+      "sayIt": {
+        "beginner": [
+          "This is your nose!"
+        ],
+        "middle": [
+          "I tried to draw your eyes and hair."
+        ],
+        "confident": [
+          "It doesn't look like you at all, but I tried to show your smile."
+        ]
+      },
+      "levelTip": "Bad drawings are the point. Everyone laughs together."
+    },
+    {
+      "id": "comic-me",
+      "name": "Three-Panel Me",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Paper folded into 3 boxes",
+        "Markers"
+      ],
+      "steps": [
+        "Draw three panels: where you're from, what you love, what you want to do.",
+        "Add one word or sentence under each.",
+        "Share with a small group.",
+        "Hang them on the wall as a gallery."
+      ],
+      "sayIt": {
+        "beginner": [
+          "I am from ___. I love ___."
+        ],
+        "middle": [
+          "In the future, I want to ___."
+        ],
+        "confident": [
+          "One day I hope to ___."
+        ]
+      },
+      "levelTip": "Students who can't say much yet can draw a lot."
+    },
+    {
+      "id": "name-tag-symbols",
+      "name": "Symbol Name Tags",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Name tags or index cards",
+        "Markers"
+      ],
+      "steps": [
+        "Write your name in big letters.",
+        "Draw three small symbols for things you love.",
+        "Wear it!",
+        "Walk around and ask about other people's symbols."
+      ],
+      "sayIt": {
+        "beginner": [
+          "This is soccer. I love soccer."
+        ],
+        "middle": [
+          "What does this picture mean?"
+        ],
+        "confident": [
+          "I drew a ___ because ___."
+        ]
+      },
+      "levelTip": "Day-one favorite: name tags become conversation starters."
+    },
+    {
+      "id": "group-monster",
+      "name": "Fold-Over Monster",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 3,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Paper folded into 3 parts",
+        "Markers"
+      ],
+      "steps": [
+        "Person 1 draws a head and folds the paper to hide it.",
+        "Person 2 draws a body without seeing the head. Fold.",
+        "Person 3 draws legs.",
+        "Unfold! Name the monster and describe it."
+      ],
+      "sayIt": {
+        "beginner": [
+          "It has three eyes!"
+        ],
+        "middle": [
+          "Our monster has ___ and ___."
+        ],
+        "confident": [
+          "This creature lives in ___ and eats ___."
+        ]
+      },
+      "levelTip": "Great for body parts, numbers and colors."
+    },
+    {
+      "id": "map-my-morning",
+      "name": "Map My Morning",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Paper",
+        "Markers"
+      ],
+      "steps": [
+        "Draw a map from your bed to camp or school.",
+        "Add landmarks: kitchen, bus stop, store.",
+        "Walk a partner through your map.",
+        "Partner retells your route."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Bed, kitchen, bus."
+        ],
+        "middle": [
+          "First I go to the kitchen. Then I take the bus."
+        ],
+        "confident": [
+          "After breakfast, I walk two blocks to the bus stop."
+        ]
+      },
+      "levelTip": "Perfect warm-up for Riding the bus."
+    },
+    {
+      "id": "playlist-builder",
+      "name": "Group Playlist",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Board or big paper",
+        "Speaker (optional)"
+      ],
+      "steps": [
+        "Each person adds one song to the group playlist.",
+        "Say the song and one word for how it feels.",
+        "Vote on the best song for camp mornings.",
+        "Play a few seconds of the winners (check lyrics first)."
+      ],
+      "sayIt": {
+        "beginner": [
+          "My song is ___. It's happy."
+        ],
+        "middle": [
+          "I picked ___ because it's ___."
+        ],
+        "confident": [
+          "This song always puts me in a ___ mood."
+        ]
+      },
+      "levelTip": "Use their world: music connects everyone."
+    },
+    {
+      "id": "talking-tower",
+      "name": "English-Only Tower",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Paper",
+        "Tape",
+        "Timer"
+      ],
+      "steps": [
+        "Teams build the tallest paper tower in 8 minutes.",
+        "Rule: only English while building!",
+        "Speaking another language = remove one piece of tape.",
+        "Measure and celebrate."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Tape, please!",
+          "Help!"
+        ],
+        "middle": [
+          "Hold this. Put it here."
+        ],
+        "confident": [
+          "If we fold it like this, it might be stronger."
+        ]
+      },
+      "levelTip": "Post useful words on the wall: hold, tape, fold, higher, careful."
+    },
+    {
+      "id": "postcard-home",
+      "name": "Postcard Home",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Index cards",
+        "Markers"
+      ],
+      "steps": [
+        "Draw a camp scene on one side.",
+        "On the other, write a short message to someone.",
+        "Read it to a partner.",
+        "Take it home or hang it up."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Hi ___! Camp is fun."
+        ],
+        "middle": [
+          "Today we ___. I liked ___."
+        ],
+        "confident": [
+          "You won't believe what happened today: ___."
+        ]
+      },
+      "levelTip": "Students can write to family, a friend, or their future self."
+    },
+    {
+      "id": "name-acrostic",
+      "name": "Name Power Words",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Paper",
+        "Markers",
+        "Picture dictionary (optional)"
+      ],
+      "steps": [
+        "Write your name down the side of the paper.",
+        "For each letter, write a positive word that starts with it.",
+        "Decorate!",
+        "Share your favorite word and why it fits you."
+      ],
+      "sayIt": {
+        "beginner": [
+          "M is for music."
+        ],
+        "middle": [
+          "___ is for ___ because ___."
+        ],
+        "confident": [
+          "I picked ___ because it describes how I ___."
+        ]
+      },
+      "levelTip": "Help with a word list for tricky letters."
+    },
+    {
+      "id": "sneaker-design",
+      "name": "Design a Sneaker",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Sneaker outline sheets",
+        "Markers"
+      ],
+      "steps": [
+        "Design your dream sneaker.",
+        "Give it a name and a price.",
+        "Pitch it to the group in 30 seconds.",
+        "The group 'buys' their favorite with pretend money."
+      ],
+      "sayIt": {
+        "beginner": [
+          "My shoe is red. It costs ___."
+        ],
+        "middle": [
+          "It's called ___. It's good for ___."
+        ],
+        "confident": [
+          "What makes these special is ___."
+        ]
+      },
+      "levelTip": "Fun for the sneakers & style crowd. Works with any theme."
+    },
+    {
+      "id": "recipe-swap",
+      "name": "Recipe Card Swap",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Index cards",
+        "Markers"
+      ],
+      "steps": [
+        "Draw a dish you know how to make, or want to.",
+        "List three ingredients and one step.",
+        "Swap with a partner. Read their recipe out loud.",
+        "Would you try it? Say why."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Rice, chicken, onion."
+        ],
+        "middle": [
+          "First you ___. Then you ___."
+        ],
+        "confident": [
+          "The secret is to ___ before you ___."
+        ]
+      },
+      "levelTip": "Practices kitchen verbs: cut, boil, mix, fry."
+    },
+    {
+      "id": "caption-it",
+      "name": "Caption It",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Funny photos you took at camp (with permission)"
+      ],
+      "steps": [
+        "Show a funny photo with no caption.",
+        "Teams write the best caption.",
+        "Read them out loud.",
+        "The photo's 'star' picks the winner."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Help me!"
+        ],
+        "middle": [
+          "When you ___ and ___."
+        ],
+        "confident": [
+          "Me trying to ___ on a Monday."
+        ]
+      },
+      "levelTip": "Use your own camp photos. Ask before showing anyone's picture."
+    },
+    {
+      "id": "flag-of-me",
+      "name": "Flag of Me",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Paper",
+        "Markers"
+      ],
+      "steps": [
+        "Design a flag that shows who you are.",
+        "Use colors and symbols that mean something to you.",
+        "Explain one color and one symbol.",
+        "Hang the flags together like a camp parade."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Green is for ___."
+        ],
+        "middle": [
+          "I used ___ because it means ___."
+        ],
+        "confident": [
+          "The ___ represents my ___."
+        ]
+      },
+      "levelTip": "Students can include their home country, family, hobbies or dreams."
+    },
+    {
+      "id": "dough-guess",
+      "name": "Dough Sculpt Guess",
+      "style": "create",
+      "ages": [
+        "11-14"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Play dough or clay",
+        "Word cards"
+      ],
+      "steps": [
+        "Pick a word card. Don't show anyone!",
+        "Sculpt it in 90 seconds.",
+        "The group guesses.",
+        "Sculptor says the word and spells it."
+      ],
+      "sayIt": {
+        "beginner": [
+          "A cat!"
+        ],
+        "middle": [
+          "Is it a kind of food?"
+        ],
+        "confident": [
+          "It looks like a ___, but maybe it's a ___."
+        ]
+      },
+      "levelTip": "Hands-on and calm, but still lots of talking."
+    },
+    {
+      "id": "camp-chant",
+      "name": "Make Our Camp Chant",
+      "style": "create",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Big paper"
+      ],
+      "steps": [
+        "Teams make a short chant or cheer for camp.",
+        "Use at least three English words and one word from a home language.",
+        "Add claps or stomps.",
+        "Perform! Everyone learns the winning chant."
+      ],
+      "sayIt": {
+        "beginner": [
+          "We are ___! Yeah!"
+        ],
+        "middle": [
+          "We're the team that ___!"
+        ],
+        "confident": [
+          "Nobody ___ like we ___!"
+        ]
+      },
+      "levelTip": "Mixing languages in the chant makes everyone feel included."
+    },
+    {
+      "id": "cup-coach",
+      "name": "Cup Tower Coach",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Paper cups (about 20 per team)"
+      ],
+      "steps": [
+        "In each team, one person is the Coach. Coaches can talk but can't touch.",
+        "Builders can touch but can't talk.",
+        "The Coach looks at a picture of a cup tower and gives directions.",
+        "Matching tower wins. Rotate the Coach."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Up! Down! Left! Stop!"
+        ],
+        "middle": [
+          "Put the cup on top. Turn it over."
+        ],
+        "confident": [
+          "Move the third cup a little to the right."
+        ]
+      },
+      "levelTip": "Builds direction words fast: on, under, next to, upside down."
+    },
+    {
+      "id": "alphabet-race",
+      "name": "Alphabet Room Race",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Alphabet sheet per team"
+      ],
+      "steps": [
+        "Teams get a sheet with A to Z.",
+        "Find something in the room for each letter.",
+        "Write it and say it out loud to the counselor.",
+        "Most letters in 10 minutes wins."
+      ],
+      "sayIt": {
+        "beginner": [
+          "B is for book."
+        ],
+        "middle": [
+          "We found a ___ for ___."
+        ],
+        "confident": [
+          "Is there anything in here that starts with Q?"
+        ]
+      },
+      "levelTip": "Allow outside the room if it's safe."
+    },
+    {
+      "id": "category-blitz",
+      "name": "Category Blitz",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Paper",
+        "Timer"
+      ],
+      "steps": [
+        "Call a category: fruits, jobs, things in a kitchen.",
+        "Teams list as many as they can in 60 seconds.",
+        "Read lists out loud.",
+        "Points only for words no other team has!"
+      ],
+      "sayIt": {
+        "beginner": [
+          "Apple, banana, mango!"
+        ],
+        "middle": [
+          "We have ___ words!"
+        ],
+        "confident": [
+          "Does ___ count as a ___?"
+        ]
+      },
+      "levelTip": "Unique words score, so students dig for new vocabulary."
+    },
+    {
+      "id": "human-sentence",
+      "name": "Human Sentence",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [
+        "Word cards (one word each)"
+      ],
+      "steps": [
+        "Give each person a word card.",
+        "Teams line up so their words make a sentence.",
+        "Read the sentence out loud, one word per person.",
+        "Mix the cards and make a new sentence."
+      ],
+      "sayIt": {
+        "beginner": [
+          "I / like / pizza."
+        ],
+        "middle": [
+          "Can / I / have / the / bill?"
+        ],
+        "confident": [
+          "Could / you / tell / me / where / the / bus / stops?"
+        ]
+      },
+      "levelTip": "Use sentences from today's activity phrases."
+    },
+    {
+      "id": "balloon-words",
+      "name": "Balloon Keep-Up Words",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 20,
+      "minutes": 10,
+      "materials": [
+        "Balloons"
+      ],
+      "steps": [
+        "Teams stand in a circle with a balloon.",
+        "Pick a category: colors.",
+        "Each time someone hits the balloon, they say a word from the category.",
+        "Balloon touches the floor or a word repeats? Start over and count again."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Red! Blue! Green!"
+        ],
+        "middle": [
+          "Soccer! Basketball! Tennis!"
+        ],
+        "confident": [
+          "Doctor! Mechanic! Engineer!"
+        ]
+      },
+      "levelTip": "Pure fun and loud. Count hits out loud as a team."
+    },
+    {
+      "id": "draw-relay",
+      "name": "Drawing Relay",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Whiteboard or big paper",
+        "Markers",
+        "Word cards"
+      ],
+      "steps": [
+        "One player from each team runs up and sees the word.",
+        "They run back and draw it for their team.",
+        "The team shouts guesses in English.",
+        "Right answer? The next player runs."
+      ],
+      "sayIt": {
+        "beginner": [
+          "It's a ___!"
+        ],
+        "middle": [
+          "Is it a kind of ___?"
+        ],
+        "confident": [
+          "It's something you find at a ___!"
+        ]
+      },
+      "levelTip": "Use words from the topic you're teaching next."
+    },
+    {
+      "id": "spell-relay",
+      "name": "Spelling Relay",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Whiteboard",
+        "Markers"
+      ],
+      "steps": [
+        "Say a word out loud.",
+        "The first player runs and writes the first letter.",
+        "Next player writes the next letter.",
+        "First team to finish the word correctly scores."
+      ],
+      "sayIt": {
+        "beginner": [
+          "B. U. S."
+        ],
+        "middle": [
+          "How do you spell ___?"
+        ],
+        "confident": [
+          "Is it double L or one L?"
+        ]
+      },
+      "levelTip": "Say the letters out loud while writing."
+    },
+    {
+      "id": "back-to-back",
+      "name": "Back-to-Back Drawing",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Simple drawings",
+        "Paper",
+        "Pencils"
+      ],
+      "steps": [
+        "Partners sit back to back.",
+        "One gets a simple picture (a house, a sun, a tree).",
+        "They describe it. The other draws it without seeing.",
+        "Compare! Then switch."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Draw a circle. Draw a line."
+        ],
+        "middle": [
+          "Draw a big square in the middle."
+        ],
+        "confident": [
+          "In the top right corner, draw a small sun with five lines."
+        ]
+      },
+      "levelTip": "Teaches shapes, sizes and position words."
+    },
+    {
+      "id": "treasure-directions",
+      "name": "Hidden Treasure Directions",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "A small 'treasure' object"
+      ],
+      "steps": [
+        "One team hides the treasure while the other waits outside.",
+        "The hiding team gives directions only in English.",
+        "The searching team follows step by step.",
+        "Swap roles."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Go left. Stop. Up."
+        ],
+        "middle": [
+          "Walk five steps. Turn right."
+        ],
+        "confident": [
+          "It's under something near the window."
+        ]
+      },
+      "levelTip": "Count steps out loud for number practice."
+    },
+    {
+      "id": "friend-quiz",
+      "name": "Who Knows the Group?",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 8,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Questions written from students' earlier answers"
+      ],
+      "steps": [
+        "Earlier in the week, collect fun facts from students.",
+        "Turn them into quiz questions: 'Who has a pet turtle?'",
+        "Teams buzz in with a sound effect.",
+        "The person in the question says 'That's me!' and adds a detail."
+      ],
+      "sayIt": {
+        "beginner": [
+          "It's ___!"
+        ],
+        "middle": [
+          "I think it's ___ because ___."
+        ],
+        "confident": [
+          "I remember ___ said something about that."
+        ]
+      },
+      "levelTip": "Students love hearing their own facts in a quiz."
+    },
+    {
+      "id": "word-chain-paper",
+      "name": "Longest Word Chain",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Paper strips",
+        "Tape or glue",
+        "Markers"
+      ],
+      "steps": [
+        "Each paper strip gets one English word.",
+        "Teams loop the strips into a chain.",
+        "Say every word out loud as you add it.",
+        "Longest chain wins. Hang them across the room."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Apple. Table. Shoe."
+        ],
+        "middle": [
+          "Our chain has ___ words."
+        ],
+        "confident": [
+          "We can add ___ and ___ too."
+        ]
+      },
+      "levelTip": "Leave the chains up all week as a word wall."
+    },
+    {
+      "id": "minefield-talk",
+      "name": "Talk Me Through",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Paper 'obstacles' on the floor"
+      ],
+      "steps": [
+        "Spread paper obstacles on the floor.",
+        "One partner walks with eyes closed. The other guides with words only and stays close.",
+        "Step on paper? Start again.",
+        "Switch roles. Anyone can keep their eyes open if they prefer."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Stop! Left! Go!"
+        ],
+        "middle": [
+          "Take two small steps forward."
+        ],
+        "confident": [
+          "Careful, there's one just in front of your right foot."
+        ]
+      },
+      "levelTip": "Partners walk next to each other for safety. Never force eyes closed."
+    },
+    {
+      "id": "clap-names",
+      "name": "Rhythm Names",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "The group keeps a beat: clap, clap, snap, snap.",
+        "On the snaps, one person says their name and a food they love.",
+        "On the next snaps, the group repeats it.",
+        "Go around the circle without losing the beat."
+      ],
+      "sayIt": {
+        "beginner": [
+          "___! Mango!"
+        ],
+        "middle": [
+          "I'm ___ and I love ___!"
+        ],
+        "confident": [
+          "The name's ___, I'm crazy about ___!"
+        ]
+      },
+      "levelTip": "The rhythm helps students remember sentences and names."
+    },
+    {
+      "id": "lost-city",
+      "name": "Lost in the City",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 30,
+      "minutes": 15,
+      "materials": [
+        "Tape grid on the floor",
+        "Signs: bank, school, park, clinic"
+      ],
+      "steps": [
+        "Tape a city grid on the floor with landmark signs.",
+        "Each team gets a destination card.",
+        "One teammate walks the city. The others give directions from the side.",
+        "Fastest correct arrival wins."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Go straight. Turn left."
+        ],
+        "middle": [
+          "The bank is next to the park."
+        ],
+        "confident": [
+          "Go past the school and take the second right."
+        ]
+      },
+      "levelTip": "Uses the same places as Riding the bus and Opening a bank account."
+    },
+    {
+      "id": "group-juggle",
+      "name": "Group Juggle",
+      "style": "team",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 20,
+      "minutes": 10,
+      "materials": [
+        "Three soft balls"
+      ],
+      "steps": [
+        "Stand in a circle. Toss one ball across the circle, saying the catcher's name.",
+        "Keep the same order each round.",
+        "Add a second and third ball.",
+        "Then switch: say a word from a category instead of a name."
+      ],
+      "sayIt": {
+        "beginner": [
+          "___, catch!"
+        ],
+        "middle": [
+          "Here you go, ___!"
+        ],
+        "confident": [
+          "Heads up, ___, coming your way!"
+        ]
+      },
+      "levelTip": "Chaos builds teamwork. Start slow."
+    },
+    {
+      "id": "gratitude-circle",
+      "name": "Thank-You Circle",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Sit in a circle.",
+        "Each person says one thing they're thankful for today.",
+        "It can be big or small: a friend, lunch, the sun.",
+        "Others can say 'Me too' with a thumbs up."
+      ],
+      "sayIt": {
+        "beginner": [
+          "I'm thankful for ___."
+        ],
+        "middle": [
+          "Today I'm thankful for ___ because ___."
+        ],
+        "confident": [
+          "Something I don't say enough: thank you for ___."
+        ]
+      },
+      "levelTip": "A calm way to end a busy day."
+    },
+    {
+      "id": "one-word-weather",
+      "name": "One-Word Weather",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 5,
+      "materials": [],
+      "steps": [
+        "Ask: 'If your mood was weather, what would it be?'",
+        "Each person says one weather word.",
+        "Sunny, cloudy, stormy, rainbow…",
+        "Anyone can add a sentence if they want."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Sunny."
+        ],
+        "middle": [
+          "I'm cloudy today."
+        ],
+        "confident": [
+          "A bit stormy this morning, but sunnier now."
+        ]
+      },
+      "levelTip": "Quick check-in that doesn't make anyone explain too much."
+    },
+    {
+      "id": "gallery-walk",
+      "name": "Silent Gallery Walk",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 6,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Student drawings or photos",
+        "Sticky notes"
+      ],
+      "steps": [
+        "Hang students' work around the room.",
+        "Walk around quietly, like a museum.",
+        "Leave a kind sticky note on each piece.",
+        "Each artist reads their notes out loud to a partner."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Nice colors!"
+        ],
+        "middle": [
+          "I like the ___ in your picture."
+        ],
+        "confident": [
+          "Your drawing makes me feel ___."
+        ]
+      },
+      "levelTip": "Pair with Flag of Me or Three-Panel Me."
+    },
+    {
+      "id": "breathe-count",
+      "name": "Breathe and Count",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 5,
+      "materials": [],
+      "steps": [
+        "Breathe in for four counts, out for four counts.",
+        "Count out loud in English.",
+        "Next round, a student counts in their home language.",
+        "Finish with one quiet breath together."
+      ],
+      "sayIt": {
+        "beginner": [
+          "One, two, three, four."
+        ],
+        "middle": [
+          "Breathe in… breathe out."
+        ],
+        "confident": [
+          "Let's take one more slow breath."
+        ]
+      },
+      "levelTip": "Use after a loud game or before a hard topic."
+    },
+    {
+      "id": "future-letter",
+      "name": "Letter to Future Me",
+      "style": "calm",
+      "ages": [
+        "15-21"
+      ],
+      "levels": [
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Paper",
+        "Envelopes"
+      ],
+      "steps": [
+        "Write a short letter to yourself one year from now.",
+        "What do you hope will be different? What English will you know?",
+        "Seal it in an envelope.",
+        "Share one sentence out loud if you want."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Next year, I want to ___."
+        ],
+        "middle": [
+          "I hope I can ___ by next summer."
+        ],
+        "confident": [
+          "Dear future me, I hope you've ___."
+        ]
+      },
+      "levelTip": "Keep the letters and give them back at the end of camp."
+    },
+    {
+      "id": "compliment-chain",
+      "name": "Compliment Chain",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 30,
+      "minutes": 10,
+      "materials": [],
+      "steps": [
+        "Sit in a circle.",
+        "Give the person on your left a kind compliment.",
+        "They say thank you, then compliment the next person.",
+        "Go all the way around."
+      ],
+      "sayIt": {
+        "beginner": [
+          "You are kind.",
+          "Thank you!"
+        ],
+        "middle": [
+          "I like how you ___."
+        ],
+        "confident": [
+          "Something I admire about you is ___."
+        ]
+      },
+      "levelTip": "Model specific compliments: 'You helped me today.'"
+    },
+    {
+      "id": "picture-story",
+      "name": "Picture Story Starter",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "One interesting photo"
+      ],
+      "steps": [
+        "Show a photo of a busy scene: a market, a bus, a park.",
+        "Everyone looks quietly for one minute.",
+        "Write or say three sentences about it.",
+        "Share the most creative sentence."
+      ],
+      "sayIt": {
+        "beginner": [
+          "I see a ___."
+        ],
+        "middle": [
+          "A man is ___. A girl is ___."
+        ],
+        "confident": [
+          "I think the woman is waiting for ___."
+        ]
+      },
+      "levelTip": "Beginners can point and name. Confident speakers invent a story."
+    },
+    {
+      "id": "starter-jar",
+      "name": "Sentence Starter Jar",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "A jar with sentence starters on paper"
+      ],
+      "steps": [
+        "Pass the jar around the circle.",
+        "Pull a starter: 'Something that makes me laugh is…'",
+        "Finish the sentence out loud.",
+        "Pass the jar on. You can swap once."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Something I like is ___."
+        ],
+        "middle": [
+          "When I'm happy, I ___."
+        ],
+        "confident": [
+          "One thing people don't know about me is ___."
+        ]
+      },
+      "levelTip": "Write easier starters on yellow paper, harder on blue."
+    },
+    {
+      "id": "memory-object",
+      "name": "Something From Home",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 25,
+      "minutes": 15,
+      "materials": [
+        "Students bring an object or a photo on their phone"
+      ],
+      "steps": [
+        "Ask students the day before to bring something that reminds them of home.",
+        "Sit in a circle.",
+        "Each person shows their object and says what it is.",
+        "Others can ask one gentle question."
+      ],
+      "sayIt": {
+        "beginner": [
+          "This is from ___."
+        ],
+        "middle": [
+          "This reminds me of ___."
+        ],
+        "confident": [
+          "My ___ gave me this when ___."
+        ]
+      },
+      "levelTip": "Make sharing optional. Some memories are hard."
+    },
+    {
+      "id": "listen-draw",
+      "name": "Listen and Draw",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Paper",
+        "Pencils"
+      ],
+      "steps": [
+        "Read a short scene slowly: 'There is a house. A tree is next to the house…'",
+        "Everyone draws what they hear.",
+        "Compare drawings.",
+        "A student describes the next scene."
+      ],
+      "sayIt": {
+        "beginner": [
+          "A house. A tree."
+        ],
+        "middle": [
+          "There is a cat under the tree."
+        ],
+        "confident": [
+          "Behind the house, there's a small river."
+        ]
+      },
+      "levelTip": "Pure listening practice. Calm and focused."
+    },
+    {
+      "id": "sign-hunt",
+      "name": "English Sign Hunt",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 15,
+      "materials": [
+        "Phones or paper"
+      ],
+      "steps": [
+        "Walk around the building or outside.",
+        "Find English words on signs, posters and labels.",
+        "Write or photo three words you don't know.",
+        "Back together: share them and figure out what they mean."
+      ],
+      "sayIt": {
+        "beginner": [
+          "What is this word?"
+        ],
+        "middle": [
+          "I saw the word ___ on a sign."
+        ],
+        "confident": [
+          "I think ___ means ___ because ___."
+        ]
+      },
+      "levelTip": "Shows students English is everywhere around them."
+    },
+    {
+      "id": "journal-share",
+      "name": "Two-Minute Journal",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Notebooks"
+      ],
+      "steps": [
+        "Set a timer for two minutes.",
+        "Write or draw anything about your day.",
+        "When the timer ends, share one sentence with a partner.",
+        "Partners ask one question."
+      ],
+      "sayIt": {
+        "beginner": [
+          "Today I ___."
+        ],
+        "middle": [
+          "The best part was ___."
+        ],
+        "confident": [
+          "Something I keep thinking about is ___."
+        ]
+      },
+      "levelTip": "Drawing counts. Any language in the journal is OK; share in English."
+    },
+    {
+      "id": "sound-map",
+      "name": "Sound Map",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Paper",
+        "Pencils"
+      ],
+      "steps": [
+        "Sit quietly for one minute with eyes closed.",
+        "Listen for every sound around you.",
+        "Draw a little map: put yourself in the middle and the sounds around you.",
+        "Share the sounds you heard."
+      ],
+      "sayIt": {
+        "beginner": [
+          "A car. A bird."
+        ],
+        "middle": [
+          "I heard a ___ outside."
+        ],
+        "confident": [
+          "I could hear ___ coming from the hallway."
+        ]
+      },
+      "levelTip": "Good reset when the group is too loud."
+    },
+    {
+      "id": "english-goal",
+      "name": "My English Goal",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "Index cards"
+      ],
+      "steps": [
+        "Each person thinks of one thing they want to do in English this week.",
+        "Order food? Ask for help at school?",
+        "Write or draw it on a card.",
+        "Check the cards on Friday together."
+      ],
+      "sayIt": {
+        "beginner": [
+          "I want to ___."
+        ],
+        "middle": [
+          "This week, I will ___ in English."
+        ],
+        "confident": [
+          "My goal is to ___ without help."
+        ]
+      },
+      "levelTip": "Celebrate every goal reached on Friday."
+    },
+    {
+      "id": "favorite-word",
+      "name": "Favorite Word Collection",
+      "style": "calm",
+      "ages": [
+        "11-14",
+        "15-21"
+      ],
+      "levels": [
+        "beginner",
+        "middle",
+        "confident"
+      ],
+      "groupMin": 4,
+      "groupMax": 40,
+      "minutes": 10,
+      "materials": [
+        "A big 'word jar' poster"
+      ],
+      "steps": [
+        "Each person shares their favorite English word they learned this week.",
+        "Say why it's their favorite: the sound, the meaning, it's funny.",
+        "Add it to the word jar poster.",
+        "Teach the group your favorite word in your home language too."
+      ],
+      "sayIt": {
+        "beginner": [
+          "My word is ___."
+        ],
+        "middle": [
+          "I like ___ because it sounds ___."
+        ],
+        "confident": [
+          "___ is my favorite because it's so useful when ___."
+        ]
+      },
+      "levelTip": "The poster grows all summer and shows how much they've learned."
     }
   ]
 }

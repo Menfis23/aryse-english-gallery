@@ -25,7 +25,7 @@ JavaScript, with content stored as JSON so pages are built from pieces.
 | File | Page | What counselors do there |
 |---|---|---|
 | `index.html` | Home | Learn what the site is for |
-| `icebreakers.html` | Icebreaker library | Filter by group size, age, level and time |
+| `icebreakers.html` | Icebreaker library | 100 icebreakers. Search, filter by style, group size, age, level and time, or hit Surprise me |
 | `activities.html` | Activity library | Filter by topic, age and level; re-theme by interest |
 | `planner.html` | Lesson planner | Get icebreaker + key words + phrases + game + wrap-up |
 | `survey.html` | Day-one survey | Students tap pictures; counselor sees results |
@@ -41,7 +41,7 @@ JavaScript, with content stored as JSON so pages are built from pieces.
 ├── style.css            # all styles; colors at the top
 ├── data/
 │   ├── activities.json  # topics: words + translations, phrases per level, game
-│   ├── icebreakers.json # icebreakers: steps, group size, minutes, say-it lines
+│   ├── icebreakers.json # 100 icebreakers in 6 styles: steps, group size, minutes, say-it lines
 │   └── themes.json      # interest themes + a scenario for every topic x theme
 └── js/
     ├── config.js        # site name, Google Form/Sheet links, approval switch

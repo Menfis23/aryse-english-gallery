@@ -23,6 +23,7 @@ const Data = (() => {
       ages: acts.ages,
       topics: acts.topics,
       icebreakers: ice.icebreakers,
+      iceStyles: ice.styles || [],
       themes: themes.themes,
       scenarios: themes.scenarios
     };
